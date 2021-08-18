@@ -1,0 +1,3512 @@
+{
+    "739650": {
+        "name": "Drake Hollow",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/header_292x136.jpg?t=1622740141",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "761",
+        "reviews_percent": 81,
+        "release_date": "1601571420",
+        "release_string": "1 ott 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 216528,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">24,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_3f82a2132567e37cb2d3d722e4a7da89dec066d9.jpg",
+            "ss_69a70dfaa43f7b92cf2adab18a8fdea300617734.jpg",
+            "ss_194e8d4f247472335cffbfbf4744a403048a17dd.jpg",
+            "ss_511683f449a6ea50f6a11ab96c36efd1d4cce827.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 158,
+        "added": 1593974958,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Mondo aperto",
+            "Avventura",
+            "Sandbox",
+            "Sopravvivenza",
+            "Esplorazione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "746850": {
+        "name": "Cloudpunk",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/746850\/header_292x136.jpg?t=1621962839",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "7,591",
+        "reviews_percent": 90,
+        "release_date": "1587657647",
+        "release_string": "23 apr 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 219190,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_a9eb3100c970170f9b5526fdc88ffd8a3c9b6d11.jpg",
+            "ss_8cf1fbcf2ef97ded1d32516ac15d294d0e8586c5.jpg",
+            "ss_6af058fb639863704c91d4f1b35e62636689c7b5.jpg",
+            "ss_3518c119a27a5c76ace47280a3ab2ba6578e5251.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 49,
+        "added": 1588814580,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Cyberpunk",
+            "Fantascienza",
+            "Atmosfera ben riuscita",
+            "Mondo aperto",
+            "Futuristici"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "750130": {
+        "name": "The Sinking City",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/750130\/header_292x136.jpg?t=1624639280",
+        "review_score": 5,
+        "review_desc": "Nella media",
+        "reviews_total": "297",
+        "reviews_percent": 57,
+        "release_date": "1614355200",
+        "release_string": "26 feb",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 220275,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_1992f971ee5bb493ddb4be7af9c35090d4a3d7d4.jpg",
+            "ss_409fcb49c1f1fe1ef91e5fc2739cd08147b5e637.jpg",
+            "ss_c5562ebe23f95dbb26af2887f46285d225bf5d98.jpg",
+            "ss_38398190084aee1542d4faa24f2ae9af881b8221.jpg"
+        ],
+        "review_css": "mixed",
+        "priority": 60,
+        "added": 1552883736,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Sparatutto in terza persona",
+            "Storia ben curata",
+            "GDR",
+            "Esplorazione",
+            "GDR d'azione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "765810": {
+        "name": "Mars Horizon",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/765810\/header_292x136.jpg?t=1626343914",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "1,678",
+        "reviews_percent": 85,
+        "release_date": "1605625253",
+        "release_string": "17 nov 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 226414,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1799\"><div class=\"discount_prices\"><div class=\"discount_final_price\">17,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1799
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_25cdb531d9a25d480799a17db32c149a289c812a.jpg",
+            "ss_70d5e5755d3b014bf053d3781860f8703d794313.jpg",
+            "ss_6767d6a9b6377d55a1a19fb5e7e01a9e75b3dc68.jpg",
+            "ss_068f6da70f1a6646cfda8ea12b40b9865b6e4e46.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 52,
+        "added": 1606856227,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Gestionali",
+            "Spazio",
+            "Strategia",
+            "Educativi",
+            "Marte"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "782330": {
+        "name": "DOOM Eternal",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/782330\/header_292x136.jpg?t=1628183141",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "113,219",
+        "reviews_percent": 91,
+        "release_date": "1584676800",
+        "release_string": "20 mar 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 235874,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"5999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">59,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 5999
+            },
+            {
+                "id": 370452,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"8999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">89,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 8999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.jpg",
+            "ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.jpg",
+            "ss_9cdf861c8ac2d7fa7e1f2a88673032bc3a6c6114.jpg",
+            "ss_674a859ebddf5e43eb71f84c3d34872f490ee882.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 30,
+        "added": 1560445036,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 885,
+        "tags": [
+            "Azione",
+            "Sparatutto in prima persona",
+            "Colonna sonora eccezionale",
+            "Effetti cruenti",
+            "Violenza"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "788100": {
+        "name": "Neon Abyss",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/788100\/header_292x136.jpg?t=1628160890",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "10,485",
+        "reviews_percent": 88,
+        "release_date": "1594738800",
+        "release_string": "14 lug 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 481434,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_55e2d8baae5f111c26b496fa1b5efb4421b4951b.jpg",
+            "ss_1be304c2d5e7f2556ba25dcbf6862435abaea93f.jpg",
+            "ss_ed51ddc0ed8a6eef54234b8e2c6e4953d577b8c9.jpg",
+            "ss_3b5546898d09b28475443a64b1c7fb39270ad595.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 37,
+        "added": 1594586366,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 905,
+        "tags": [
+            "Stile Rogue",
+            "Platform",
+            "Generazione procedurale",
+            "Bottino",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "790820": {
+        "name": "Valkyria Chronicles 4 Complete Edition",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/790820\/header_292x136.jpg?t=1603131449",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "3,628",
+        "reviews_percent": 88,
+        "release_date": "1537884000",
+        "release_string": "25 set 2018",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 409903,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_7f426c69d4f27dff1e19aea7560c89bc27421104.jpg",
+            "ss_eb0780f959ba11021d961e04fa30a878c656dfc1.jpg",
+            "ss_20a063ed7ed1cb36b877b0532cc3f2f306ab3ad5.jpg",
+            "ss_1c4e49ff56e3b13e722022c2a4300cdfa296dd1d.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 111,
+        "added": 1538926465,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Strategia",
+            "Anime",
+            "GDR",
+            "A turni",
+            "Guerra"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "794260": {
+        "name": "Outward",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/794260\/header_292x136.jpg?t=1625218884",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "13,495",
+        "reviews_percent": 75,
+        "release_date": "1553605080",
+        "release_string": "26 mar 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 354036,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_ceada7f2a93988c4389304d38814e3e6d1f8215b.jpg",
+            "ss_31c3692b34eb49cb709c6f13024ae83956decbe7.jpg",
+            "ss_8b347d148ca89b314a62592bf870708b2cd224d2.jpg",
+            "ss_7ae08cf0611a8e194ef5899b6a664f1bbd43b247.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 21,
+        "added": 1552870525,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "GDR",
+            "Mondo aperto",
+            "Sopravvivenza",
+            "Co-op",
+            "Co-op online"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "812040": {
+        "name": "Shortest Trip to Earth",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/812040\/header_292x136.jpg?t=1625219435",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "1,021",
+        "reviews_percent": 77,
+        "release_date": "1565883976",
+        "release_string": "15 ago 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 247955,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2199\"><div class=\"discount_prices\"><div class=\"discount_final_price\">21,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2199
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_2b4c4932624ffb6ed606cec0a59aa8cf304725df.jpg",
+            "ss_2085a733875751738797f4dd24d72ef2c46e776a.jpg",
+            "ss_8496699f17a7f2b116d67f63355e8553537bd420.jpg",
+            "ss_2cfb9a8f311148383b77f1d0bf40061a07c5e5e0.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 99,
+        "added": 1574524433,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Roguelite",
+            "Spazio",
+            "Strategia",
+            "Sopravvivenza",
+            "Fantascienza"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "linux": 1
+    },
+    "813630": {
+        "name": "Supraland",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/813630\/header_292x136.jpg?t=1612724808",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "6,665",
+        "reviews_percent": 96,
+        "release_date": "1554455663",
+        "release_string": "5 apr 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 248660,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_8a01de634e5470eb32db61772870a91693f576e2.jpg",
+            "ss_773d1c8cdec439cdb7b628f6b7fdca21a94b69fd.jpg",
+            "ss_8754e6b61f0a914fb71e9388e46c81578a7aef06.jpg",
+            "ss_c921aed1d4e6b2503a18ea3bf8e0497a0ec22b71.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 108,
+        "added": 1555271479,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Rompicapo",
+            "Avventura",
+            "Esplorazione",
+            "Metroidvania",
+            "Prima persona"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "814680": {
+        "name": "Unbound: Worlds Apart",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/814680\/header_292x136.jpg?t=1627773644",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "150",
+        "reviews_percent": 89,
+        "release_date": "1627491608",
+        "release_string": "28 lug",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 249218,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_d05a7a2c535f0659efe5671b9387b481360f082a.jpg",
+            "ss_6da7fb78abb63499f3e13d7cb066f55af020bfd5.jpg",
+            "ss_bc6ac9d4121d5881658340e2347e5b91f9c71938.jpg",
+            "ss_9033716dab5968476852ff44a0c2f0d586f1422d.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 74,
+        "added": 1586230253,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 898,
+        "tags": [
+            "Indie",
+            "Avventura",
+            "Platform",
+            "Atmosfera ben riuscita",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "826630": {
+        "name": "Iron Harvest",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/826630\/header_292x136.jpg?t=1623351983",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "5,337",
+        "reviews_percent": 75,
+        "release_date": "1598918400",
+        "release_string": "1 set 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 580738,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            },
+            {
+                "id": 254069,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_be949635c259194fdc77a90ddc64155c678512cf.jpg",
+            "ss_c1f78f1bd6235ad93e6cef4f29ab5eae9381b4be.jpg",
+            "ss_a2728deaa2555c354c7dbe440ab066186c6c8275.jpg",
+            "ss_f14dbddcedec0f0cbaf2ab268e194349c551491f.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 42,
+        "added": 1592328687,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 911,
+        "tags": [
+            "Strategia in tempo reale",
+            "Strategia",
+            "Costruzione di basi",
+            "Mech",
+            "Realt\u00e0 alternativa"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "848450": {
+        "name": "Subnautica: Below Zero",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/848450\/header_292x136.jpg?t=1625546902",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "47,919",
+        "reviews_percent": 92,
+        "release_date": "1620965301",
+        "release_string": "14 mag",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 265866,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_5011daad83f8494eda0826e4bbc91181239ad5d7.jpg",
+            "ss_3c3403337b972d4913e3a6b4f34e0f47e484c042.jpg",
+            "ss_5bc21362aa200d08fe25203cbe50debedd8f11a3.jpg",
+            "ss_9e3d6ab0db5442f7bcbeb923da47d3a80023f50f.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 24,
+        "added": 1588814618,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 712,
+        "tags": [
+            "Crafting e sopravvivenza a mondo aperto",
+            "Sopravvivenza",
+            "Sott'acqua",
+            "Mondo aperto",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "857980": {
+        "name": "Void Bastards",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/857980\/header_292x136.jpg?t=1625007905",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "3,018",
+        "reviews_percent": 88,
+        "release_date": "1559102381",
+        "release_string": "29 mag 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 269977,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_0b7e57e1a6c195d0c921a88d73e312222eeca24d.jpg",
+            "ss_8acea8cdb33ffca532ac68444c546ccf221a7f3b.jpg",
+            "ss_b156dba5bb92c63727b5be8bad2ea06b42f4d13a.jpg",
+            "ss_9424ea5f469a2a0c77eaf613333be8686d551b56.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 66,
+        "added": 1594496733,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 1000,
+        "tags": [
+            "Sparatutto in prima persona",
+            "Azione stile Rogue",
+            "Giocatore singolo",
+            "Simulatori immersivi",
+            "Sparatutto"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "860510": {
+        "name": "Little Nightmares II",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860510\/header_292x136.jpg?t=1624631773",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "11,025",
+        "reviews_percent": 95,
+        "release_date": "1612998000",
+        "release_string": "11 feb",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 270935,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            },
+            {
+                "id": 497760,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_b7bdc32338c0261ee0773ad0b13024c853a2141c.jpg",
+            "ss_a17e682e91c93695f2855be46428c4fc04c997f3.jpg",
+            "ss_a2f4c8ad95844656764d6b7d3a033fc787e82144.jpg",
+            "ss_fa043ec9f1f044e57085bbff9b5200d60fa05d91.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 4,
+        "added": 1613336451,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/739650\/page_bg_generated_v6b.jpg?t=1622740141",
+        "rank": 750,
+        "tags": [
+            "Horror",
+            "Avventura",
+            "Giocatore singolo",
+            "Dark",
+            "Rompicapo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "860890": {
+        "name": "Factory Town",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860890\/header_292x136.jpg?t=1601301354",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "2,111",
+        "reviews_percent": 91,
+        "release_date": "1552398782",
+        "release_string": "12 mar 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 271092,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_a8d069964ae618c42d207935ede31f6c46408025.jpg",
+            "ss_f948888e011d389bd0b6f7d8814f0bc532a57e2b.jpg",
+            "ss_a6ca418eeeb475f9d0330cb26b605e54b096129c.jpg",
+            "ss_dcc22774336d8082712afcbcf3e6e28f8e0963e3.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 162,
+        "added": 1600307919,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860890\/page_bg_generated_v6b.jpg?t=1601301354",
+        "rank": 911,
+        "tags": [
+            "Automazione",
+            "Costruzione di basi",
+            "Gestione delle risorse",
+            "Sandbox",
+            "Simulazione"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1,
+        "mac": 1
+    },
+    "865540": {
+        "name": "PLAYNE : The Meditation Game",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/865540\/header_292x136.jpg?t=1627505842",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "805",
+        "reviews_percent": 97,
+        "release_date": "1588340671",
+        "release_string": "1 mag 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"vr_supported\">Compatibile con VR<\/span>",
+        "subs": [
+            {
+                "id": 272980,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_a3b94aec0567a8f463c1c69c8bb507a5e92623f2.jpg",
+            "ss_e66a3f8ebd9ef5f3727ac60f51c65cf0357f3b3f.jpg",
+            "ss_d782f7264e4c76ae5e91de75cfcb800c3d7de15d.jpg",
+            "ss_83c4f79d58f566489f725b3b0eb2c2d555ae9980.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 55,
+        "added": 1589072927,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860890\/page_bg_generated_v6b.jpg?t=1601301354",
+        "rank": 1000,
+        "tags": [
+            "Rilassanti",
+            "Giocatore singolo",
+            "Storia ben curata",
+            "Filosofici",
+            "Atmosfera ben riuscita"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "865670": {
+        "name": "Prey - Mooncrash",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/865670\/header_292x136.jpg?t=1595864514",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "1,175",
+        "reviews_percent": 74,
+        "release_date": "1528639200",
+        "release_string": "10 giu 2018",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 273040,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            },
+            {
+                "id": 277639,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "DLC",
+        "screenshots": [
+            "ss_019bcb9441e6b6892b4476fb7d19661ef557096a.jpg",
+            "ss_a1a4ca7ffa746f467bcd6ed70e7af158c6e802f9.jpg",
+            "ss_87e7597c707400a7ea07b8f321a01336eefa5efe.jpg",
+            "ss_46a2742a0f94ed9f24438e59b5aee0e6ae07589a.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 124,
+        "added": 1530311170,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860890\/page_bg_generated_v6b.jpg?t=1601301354",
+        "rank": 1000,
+        "tags": [
+            "Azione",
+            "Avventura",
+            "Roguelite",
+            "Sparatutto in prima persona",
+            "Horror"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "881100": {
+        "name": "Noita",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/881100\/header_292x136.jpg?t=1627905909",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "31,062",
+        "reviews_percent": 96,
+        "release_date": "1602781382",
+        "release_string": "15 ott 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 279818,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1899\"><div class=\"discount_prices\"><div class=\"discount_final_price\">18,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1899
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_626b401fd6d78ab335ecb8ff1e4b0a8ce7d25f66.jpg",
+            "ss_96308c4c5951740a0e46e0aa66e67bd04e99286a.jpg",
+            "ss_c02b4406a18dc2e3fe213a6c1948d975ba191985.jpg",
+            "ss_c9c81f5abbc75b9e5408c23d44bfab14e6759cb7.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 32,
+        "added": 1608756672,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/860890\/page_bg_generated_v6b.jpg?t=1601301354",
+        "rank": 1000,
+        "tags": [
+            "Difficili",
+            "Fisica",
+            "Stile Rogue",
+            "Dungeon crawler",
+            "Azione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "883710": {
+        "name": "Resident Evil 2",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/header_292x136.jpg?t=1608602727",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "61,524",
+        "reviews_percent": 97,
+        "release_date": "1548352800",
+        "release_string": "24 gen 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 280800,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            },
+            {
+                "id": 281610,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            },
+            {
+                "id": 597332,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"7998\"><div class=\"discount_prices\"><div class=\"discount_final_price\">79,98\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 7998
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_1392581cd29817e44099cf05416b70ffb159c58b.jpg",
+            "ss_153bd5afa0b45e74b0242a3805dc29aab9f1685e.jpg",
+            "ss_cb998634747b70bbcf2dba34a2aef34808d039bf.jpg",
+            "ss_90cc41d4c52d56f5ab26ad64223922a93b60eba6.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 34,
+        "added": 1554117877,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/page_bg_generated_v6b.jpg?t=1608602727",
+        "rank": 674,
+        "tags": [
+            "Zombi",
+            "Horror di sopravvivenza",
+            "Horror",
+            "Remake",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "890720": {
+        "name": "In Other Waters",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/890720\/header_292x136.jpg?t=1623624863",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "707",
+        "reviews_percent": 93,
+        "release_date": "1585925805",
+        "release_string": "3 apr 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 284076,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_56ac5fbdc110728334815853f14cbc5d8892eb58.jpg",
+            "ss_7634cc261c8b4fbd63ede481d699a890b9d5eedb.jpg",
+            "ss_b865830914b1ad6b0ec62ec672cc644f2116f8df.jpg",
+            "ss_4e4fd3702b9c2565faedf42fcdf16add7293356e.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 89,
+        "added": 1586230030,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/page_bg_generated_v6b.jpg?t=1608602727",
+        "rank": 1000,
+        "tags": [
+            "Indie",
+            "Avventura",
+            "Esplorazione",
+            "Atmosfera ben riuscita",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "892970": {
+        "name": "Valheim",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/892970\/header_292x136.jpg?t=1617258628",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "223,968",
+        "reviews_percent": 96,
+        "release_date": "1612277769",
+        "release_string": "2 feb",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 285032,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_e783457b53702b76249835ac1b4c051211b92d69.jpg",
+            "ss_31c19dc3adf3de8c982f58181c207fa619a15d97.jpg",
+            "ss_ad81cc7ced8585ad344ba50e9d0b4bf9c597e62e.jpg",
+            "ss_319091582345d0f4753eca0db9383691b0b8e881.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 174,
+        "added": 1613336442,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/page_bg_generated_v6b.jpg?t=1608602727",
+        "rank": 488,
+        "tags": [
+            "Crafting e sopravvivenza a mondo aperto",
+            "Co-op online",
+            "Sopravvivenza",
+            "Mondo aperto",
+            "Creazione di oggetti"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1,
+        "linux": 1
+    },
+    "894940": {
+        "name": "Littlewood",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/894940\/header_292x136.jpg?t=1596561234",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "4,198",
+        "reviews_percent": 95,
+        "release_date": "1596549704",
+        "release_string": "4 ago 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 285844,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_e373be09c6040d506ae6f30d5fc3745cffaa3178.jpg",
+            "ss_fc4a3674d4635d218d316eae8089add0deddf54f.jpg",
+            "ss_6e3820d34d7cc4d43f01a03ec4895007bf47daa2.jpg",
+            "ss_7499047758d770fb0bbad5cf9006eb902934e790.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 159,
+        "added": 1597877366,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/page_bg_generated_v6b.jpg?t=1608602727",
+        "rank": 1000,
+        "tags": [
+            "Pixel art",
+            "Simulatori di vita",
+            "Costruzione di citt\u00e0",
+            "Simulazione",
+            "GDR"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "897450": {
+        "name": "The Survivalists",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/897450\/header_292x136.jpg?t=1626939260",
+        "review_score": 5,
+        "review_desc": "Nella media",
+        "reviews_total": "2,061",
+        "reviews_percent": 70,
+        "release_date": "1602252000",
+        "release_string": "9 ott 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 286966,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">24,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2499
+            },
+            {
+                "id": 483092,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3299\"><div class=\"discount_prices\"><div class=\"discount_final_price\">32,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3299
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_13e34de1f5d03ff501210d3808c43de2f4b965b9.jpg",
+            "ss_35d75b90d21f45fa532499ca2b4b253cf6fc4665.jpg",
+            "ss_790eaf2644cc7b699105cc11929f40154e8f4fb6.jpg",
+            "ss_464ecf3b0f5cca1a35a97399c0bcb651593d20a0.jpg"
+        ],
+        "review_css": "mixed",
+        "priority": 160,
+        "added": 1596147839,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/883710\/page_bg_generated_v6b.jpg?t=1608602727",
+        "rank": 1000,
+        "tags": [
+            "Creazione di oggetti",
+            "Avventura",
+            "Co-op online",
+            "Sopravvivenza",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "911430": {
+        "name": "Good Company",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/911430\/header_292x136.jpg?t=1621613882",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "888",
+        "reviews_percent": 75,
+        "release_date": "1585670505",
+        "release_string": "31 mar 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 292278,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2299\"><div class=\"discount_prices\"><div class=\"discount_final_price\">22,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2299
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_979a95a77881cd2a0f7e287bdd2a412cbe2f93e4.jpg",
+            "ss_eece0c4e28edc6dcdbde5d328bd8804770d46407.jpg",
+            "ss_50a1a88540e094581e859e474dd280466aad4e6e.jpg",
+            "ss_aaf836a88214c8dc3a003508cf7b72c05cba86d5.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 147,
+        "added": 1589074436,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/911430\/page_bg_generated_v6b.jpg?t=1621613882",
+        "rank": 1000,
+        "tags": [
+            "Accesso anticipato",
+            "Sandbox",
+            "Giocatore singolo",
+            "Prospettiva isometrica",
+            "Robot"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1
+    },
+    "916840": {
+        "name": "The Walking Dead: Saints &amp; Sinners",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/916840\/header_292x136.jpg?t=1594746141",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "4,482",
+        "reviews_percent": 90,
+        "release_date": "1579802400",
+        "release_string": "23 gen 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"vr_required\">Solo VR<\/span>",
+        "subs": [
+            {
+                "id": 425261,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3399\"><div class=\"discount_prices\"><div class=\"discount_final_price\">33,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3399
+            },
+            {
+                "id": 425260,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4199\"><div class=\"discount_prices\"><div class=\"discount_final_price\">41,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4199
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_1cf17c9884788969dc638616c575f18f077bf95c.jpg",
+            "ss_180e01f1da8a0e2d227140cf0474971535125876.jpg",
+            "ss_2e142e21c24e9405f7c34c4a628520f6c0d9aea8.jpg",
+            "ss_a0bc2e9ca7a82fcc8a8369eaaa61aa53d7f13b03.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 58,
+        "added": 1588814635,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/911430\/page_bg_generated_v6b.jpg?t=1621613882",
+        "rank": 722,
+        "tags": [
+            "VR",
+            "Azione",
+            "Avventura",
+            "GDR",
+            "Indie"
+        ],
+        "is_free_game": false,
+        "vr_only": 1,
+        "win": 1
+    },
+    "933820": {
+        "name": "Endzone - A World Apart",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/933820\/header_292x136.jpg?t=1626944289",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "4,012",
+        "reviews_percent": 77,
+        "release_date": "1616085216",
+        "release_string": "18 mar",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 302876,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            },
+            {
+                "id": 435296,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_04932227976f235dccd25a6754c0c9ae6d0c8558.jpg",
+            "ss_319e63c7c36bd2c1c3e17eeba92eac99436da565.jpg",
+            "ss_79741eaef478117a57a7c5124f6b3dab2d75f4af.jpg",
+            "ss_7ebd405a994c22dd4705fc9e201aa501d6a5df35.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 93,
+        "added": 1586230074,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/911430\/page_bg_generated_v6b.jpg?t=1621613882",
+        "rank": 1000,
+        "tags": [
+            "Strategia",
+            "Costruzione di citt\u00e0",
+            "Sopravvivenza",
+            "Simulazione",
+            "Post-apocalittici"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "938560": {
+        "name": "INMOST",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/938560\/header_292x136.jpg?t=1611668935",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "2,072",
+        "reviews_percent": 91,
+        "release_date": "1597993327",
+        "release_string": "21 ago 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 304619,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1299\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1299
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_d055b5b20898e004cd97dfd7e768f802d3b2bc9e.jpg",
+            "ss_e5f1edbeb1fde196904b62e3cbb8e3b09918bc78.jpg",
+            "ss_f01585973dbb5d02d07a19e31f8b50c4a6c48e25.jpg",
+            "ss_83fffac8a34f526b8efb7c131f13f5e56801ff33.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 36,
+        "added": 1592328810,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/911430\/page_bg_generated_v6b.jpg?t=1621613882",
+        "rank": 1000,
+        "tags": [
+            "Indie",
+            "Avventura",
+            "Pixel art",
+            "Atmosfera ben riuscita",
+            "Rompicapo\/platform"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "953490": {
+        "name": "CARRION",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/953490\/header_292x136.jpg?t=1626886971",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "12,661",
+        "reviews_percent": 94,
+        "release_date": "1595512800",
+        "release_string": "23 lug 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 310872,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_c1b99767813054012175e6dccfc1a13a04f01f8c.jpg",
+            "ss_1c428122c4097b4f40cbf058444d34aeaceb84d1.jpg",
+            "ss_b4856724be6c68d0826ba09dd14f19e65df6d856.jpg",
+            "ss_c3e32b7d65be51f55818d441b983fe3b42015edb.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 46,
+        "added": 1595723636,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/953490\/page_bg_generated_v6b.jpg?t=1626886971",
+        "rank": 1000,
+        "tags": [
+            "Protagonista malvagio",
+            "Pixel art",
+            "Azione",
+            "Effetti cruenti",
+            "Indie"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "955900": {
+        "name": "Amazing Cultivation Simulator",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/955900\/header_292x136.jpg?t=1612847350",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "13,282",
+        "reviews_percent": 87,
+        "release_date": "1606287720",
+        "release_string": "25 nov 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 519021,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2099\"><div class=\"discount_prices\"><div class=\"discount_final_price\">20,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2099
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_eef855e6416b58cb2392e44046109b4d3903075e.jpg",
+            "ss_840ae1b7fcb5f7e12c1f8f083f69df17e343a71a.jpg",
+            "ss_8b688c7a7d8b10e0d207e5673b6d505d0ec09d8e.jpg",
+            "ss_fde8f4d1edbd78e4d2bb7b510d2c2bd585203104.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 51,
+        "added": 1606430351,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/953490\/page_bg_generated_v6b.jpg?t=1626886971",
+        "rank": 812,
+        "tags": [
+            "Simulazione",
+            "GDR",
+            "Strategia",
+            "Sandbox",
+            "Indie"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "972660": {
+        "name": "Spiritfarer\u00ae",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/header_292x136.jpg?t=1621012881",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "10,129",
+        "reviews_percent": 96,
+        "release_date": "1597770081",
+        "release_string": "18 ago 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 319017,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">24,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_a751970e68bc928538fbc4f52d6090c6ff1d8974.jpg",
+            "ss_6ae155cb7c5f65f46a8f0dc43ba57aff8f57616c.jpg",
+            "ss_cb5c5af0cdef3ec3a5317c162c32e956ec7aa76b.jpg",
+            "ss_5a2001d7df99bfe5f2a77b45e62560ad71b8c329.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 12,
+        "added": 1597877045,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 1000,
+        "tags": [
+            "Emozioni",
+            "Indie",
+            "Costruzioni",
+            "Storia ben curata",
+            "Gestionali"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "979110": {
+        "name": "Space Haven",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/979110\/header_292x136.jpg?t=1621345135",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "4,296",
+        "reviews_percent": 88,
+        "release_date": "1590078648",
+        "release_string": "21 mag 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 321808,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2199\"><div class=\"discount_prices\"><div class=\"discount_final_price\">21,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2199
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_c4bd62c679d1147a018e5cee0e64d11deeb2b21b.jpg",
+            "ss_41c0bc4ab194c87b7c09097c0a33cee56ac58a4e.jpg",
+            "ss_ef63e55182d8068e762d3824ab52a569df12ae4d.jpg",
+            "ss_ef8559ae7548338279e07233ce3e2eadb3d40a3c.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 69,
+        "added": 1590084849,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 1000,
+        "tags": [
+            "Costruzione di basi",
+            "Simulatori di colonie",
+            "Simulazione",
+            "Spazio",
+            "Strategia"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "979120": {
+        "name": "Autonauts",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/979120\/header_292x136.jpg?t=1613412550",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "2,535",
+        "reviews_percent": 90,
+        "release_date": "1571324455",
+        "release_string": "17 ott 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 321812,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_37fd72bc903110a8db03d2dc1a878c5ff81fc4d3.jpg",
+            "ss_7af3f8a884df2c7fcced9a4482450bda05771acb.jpg",
+            "ss_ad5fd5ab0f7dc462896ed700f5ef9ef6b49556f5.jpg",
+            "ss_3e6febda844888964bb71d3a82d3bbb58f8eddde.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 57,
+        "added": 1570743522,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 902,
+        "tags": [
+            "Simulazione",
+            "Indie",
+            "Passatempo",
+            "Automazione",
+            "Programmazione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "996580": {
+        "name": "Spyro\u2122 Reignited Trilogy",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/996580\/header_292x136.jpg?t=1588789018",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "6,839",
+        "reviews_percent": 95,
+        "release_date": "1567530000",
+        "release_string": "3 set 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 328762,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_bcf2c7104b393806c478e7a324630487970ee829.jpg",
+            "ss_971529dd86fc64c4505e54fabb1847ec47118a5d.jpg",
+            "ss_d3398e9f6afc99bcc471bc85c419fe5cfbd8918f.jpg",
+            "ss_08eafc1dfc14b2869cd448e1442d9616e5252e3b.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 95,
+        "added": 1568157398,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 231,
+        "tags": [
+            "Avventura",
+            "Platform 3D",
+            "Remake",
+            "Draghi",
+            "Azione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1003890": {
+        "name": "Blacksad: Under the Skin",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1003890\/header_292x136.jpg?t=1623054820",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "1,982",
+        "reviews_percent": 85,
+        "release_date": "1573754400",
+        "release_string": "14 nov 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 331859,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"1199\"><div class=\"discount_pct\">-70%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">39,99\u20ac<\/div><div class=\"discount_final_price\">11,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 70,
+                "price": 1199
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_8552045075d19ccab59ef28d22aa3eb483ef87e1.jpg",
+            "ss_0c8887086b78ce457eeac24e8d068db14b1797ef.jpg",
+            "ss_39205c52210754a453f43f9436579ca774a1af2f.jpg",
+            "ss_86b816e88bb07c7774b5f3c12a255f31bcbfcdfd.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 76,
+        "added": 1588814223,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 747,
+        "tags": [
+            "Avventura",
+            "Detective",
+            "Scelte e conseguenze",
+            "Noir",
+            "Storia ben curata"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "1015890": {
+        "name": "TASOMACHI: Behind the Twilight",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1015890\/header_292x136.jpg?t=1620867871",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "242",
+        "reviews_percent": 75,
+        "release_date": "1618383215",
+        "release_string": "14 apr",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 336671,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_5dbe357a46484d1f2ba5379db78099aa7a81cb02.jpg",
+            "ss_6c96c91f149140448f621026461688df4291b10c.jpg",
+            "ss_4fc55ae89ccb643d8b5a5084274a42db96c4d74d.jpg",
+            "ss_86416cf3a3f8a22209c99e7527cb4e98e083af12.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 165,
+        "added": 1600984576,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/972660\/page_bg_generated_v6b.jpg?t=1621012881",
+        "rank": 1000,
+        "tags": [
+            "Rilassanti",
+            "Atmosfera ben riuscita",
+            "Fantasy",
+            "Platform 3D",
+            "Anime"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1016790": {
+        "name": "West of Dead",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1016790\/header_292x136.jpg?t=1612906591",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "388",
+        "reviews_percent": 77,
+        "release_date": "1592470783",
+        "release_string": "18 giu 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 337006,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_230adbc4b6a2e18fc5e42ec20cfae7168490f9a4.jpg",
+            "ss_6855105e87c59951ed3aebea24f363f3bf726351.jpg",
+            "ss_bab2eb9bb59d5507de37298bf52555285955f1c8.jpg",
+            "ss_f9c42cfb148b4043f9b7dee23494e59528954a78.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 40,
+        "added": 1593975062,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1016790\/page_bg_generated_v6b.jpg?t=1612906591",
+        "rank": 1000,
+        "tags": [
+            "Indie",
+            "Azione",
+            "Avventura",
+            "Azione stile Rogue",
+            "Western"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1016920": {
+        "name": "Unrailed!",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1016920\/header_292x136.jpg?t=1621889117",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "6,550",
+        "reviews_percent": 94,
+        "release_date": "1600880411",
+        "release_string": "23 set 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 337058,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"799\"><div class=\"discount_pct\">-60%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">19,99\u20ac<\/div><div class=\"discount_final_price\">7,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 60,
+                "price": 799
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_718c17d9145a8f11eb99de457d513fc79bd82979.jpg",
+            "ss_60264335a97af2987159e787635f39cb9f19f648.jpg",
+            "ss_8496602ef1f242770f079665740f542aaa4eb638.jpg",
+            "ss_71511b260173d62f1fbc43b56b97611335f08c60.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 152,
+        "added": 1591478634,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1016790\/page_bg_generated_v6b.jpg?t=1612906591",
+        "rank": 830,
+        "tags": [
+            "Crafting e sopravvivenza a mondo aperto",
+            "Passatempo",
+            "Co-op",
+            "Azione",
+            "Multigiocatore"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1019310": {
+        "name": "VirtuaVerse",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1019310\/header_292x136.jpg?t=1626686248",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "612",
+        "reviews_percent": 84,
+        "release_date": "1589299250",
+        "release_string": "12 mag 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 337997,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">14,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_ffaa509c86b9ecf61aa4e9cd37f7a543c6653979.jpg",
+            "ss_a235793a04e57ac1d60d449bd02fdfe9dc8807fa.jpg",
+            "ss_5e5a918f6b69d003c119cf98db2b627755f5543a.jpg",
+            "ss_9e3b51e93fdc5f98a4c86867125b3be2471f88fe.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 47,
+        "added": 1589310984,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1016790\/page_bg_generated_v6b.jpg?t=1612906591",
+        "rank": 1000,
+        "tags": [
+            "Cyberpunk",
+            "Avventure grafiche",
+            "Old School",
+            "Distopici",
+            "1990"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1040420": {
+        "name": "Dreamscaper",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/header_292x136_italian.jpg?t=1628169366",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "886",
+        "reviews_percent": 93,
+        "release_date": "1628179200",
+        "release_string": "5 ago",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 346528,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"1574\"><div class=\"discount_pct\">-25%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">20,99\u20ac<\/div><div class=\"discount_final_price\">15,74\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 25,
+                "price": 1574
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_06e07bb834ccfd9ba630e64d2984f9230aec5394.jpg",
+            "ss_295ea80b678d0ad3ace8f7821cb0d1cbe070be2e.jpg",
+            "ss_ce82f467b8cb4686c98cfe317a27d7e79689d24c.jpg",
+            "ss_e9ece0e2e272996eb5164ab19dbaca56e88068f9.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 161,
+        "added": 1597877230,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 311,
+        "tags": [
+            "Azione stile Rogue",
+            "Azione",
+            "Roguelite",
+            "Indie",
+            "GDR"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1046030": {
+        "name": "ISLANDERS",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1046030\/header_292x136.jpg?t=1620119282",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "12,335",
+        "reviews_percent": 95,
+        "release_date": "1554365770",
+        "release_string": "4 apr 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 348647,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">4,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_8c62b14de6d60916ff35a50000596bff79fadd71.jpg",
+            "ss_e0d7d61fffc5c216a044bc44775bf5a05252bfd9.jpg",
+            "ss_0c343e4041966c8bf1584297b7c29b3cc0af7ebb.jpg",
+            "ss_d586e1096a9fa1a790066b513286b20e671e681c.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 137,
+        "added": 1555332920,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 1000,
+        "tags": [
+            "Rilassanti",
+            "Costruzione di citt\u00e0",
+            "Strategia",
+            "Rompicapo",
+            "Indie"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1057090": {
+        "name": "Ori and the Will of the Wisps",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1057090\/header_292x136.jpg?t=1612897638",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "65,113",
+        "reviews_percent": 96,
+        "release_date": "1583899200",
+        "release_string": "11 mar 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 353051,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.jpg",
+            "ss_f8ac174b7949e89fe1939a7bd2c471785dee55f0.jpg",
+            "ss_3ae04b208aaff3869f69617c47449ec1d7a06513.jpg",
+            "ss_608e317acbb76258bedcf1a79e6673a61475908f.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 19,
+        "added": 1588814589,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 840,
+        "tags": [
+            "Bellissimi",
+            "Colonna sonora eccezionale",
+            "Metroidvania",
+            "Platform",
+            "Azione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1062090": {
+        "name": "Timberborn",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1062090\/header_292x136.jpg?t=1628150314",
+        "review_score": 0,
+        "review_desc": "Nessuna recensione degli utenti",
+        "reviews_total": "0",
+        "reviews_percent": 0,
+        "release_date": 1628193155,
+        "release_string": "Early Access in 2021",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [],
+        "type": "Game",
+        "screenshots": [
+            "ss_a2b0c38be5f5d31e8477e54d8c37e4167618d2cc.jpg",
+            "ss_72539ee68d878addd98f302f9180cd25d9b4a6ad.jpg",
+            "ss_d1e9b1e0980e40e76bb89af48fbc65a9d2c3d69f.jpg",
+            "ss_11e68e53bea8aebf0caaaa8df9658cc5acb61977.jpg"
+        ],
+        "review_css": "no_reviews",
+        "priority": 175,
+        "added": 1613338278,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 1000,
+        "tags": [
+            "Accesso anticipato",
+            "Costruzione di citt\u00e0",
+            "Simulatori di colonie",
+            "Costruzioni",
+            "Costruzione di basi"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "prerelease": 1,
+        "win": 1,
+        "mac": 1
+    },
+    "1067540": {
+        "name": "R\u00f6ki",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1067540\/header_292x136.jpg?t=1627294326",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "935",
+        "reviews_percent": 93,
+        "release_date": "1595487660",
+        "release_string": "23 lug 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 357429,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2199\"><div class=\"discount_prices\"><div class=\"discount_final_price\">21,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2199
+            },
+            {
+                "id": 489218,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">24,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_080c6d829e59a1dfe7305d08b05cb0c8a38f1000.jpg",
+            "ss_77768a039846c40fd4932fc04af48039dc611895.jpg",
+            "ss_a263855ecf62decf8e1ab7f697ed4fe59bd260ef.jpg",
+            "ss_697f38fed14f3d998de4b869e6983683fb5cf7d2.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 65,
+        "added": 1595242754,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 1000,
+        "tags": [
+            "Avventura",
+            "Storia ben curata",
+            "Rompicapo",
+            "Atmosfera ben riuscita",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "1078920": {
+        "name": "Main Assembly",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1078920\/header_292x136.jpg?t=1628160522",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "541",
+        "reviews_percent": 91,
+        "release_date": "1611676875",
+        "release_string": "26 gen",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 362196,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"999\"><div class=\"discount_pct\">-50%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">19,99\u20ac<\/div><div class=\"discount_final_price\">9,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 50,
+                "price": 999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_6d40d07b67272b369d04bc086f15ba3083027240.jpg",
+            "ss_2f4331715ca965a6295a458f9bbb349c8da7f044.jpg",
+            "ss_0c4bdd5c606738a04977450f534d76c031fdc499.jpg",
+            "ss_31350bd600ef09ee81d1bca271085ed9caaa550b.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 81,
+        "added": 1586230126,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1040420\/page_bg_generated_v6b.jpg?t=1628169366",
+        "rank": 1000,
+        "tags": [
+            "3D",
+            "Co-op online",
+            "Co-op",
+            "Giocatore singolo",
+            "Sandbox"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1097350": {
+        "name": "Weird West",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/header_292x136.jpg?t=1626957170",
+        "review_score": 0,
+        "review_desc": "Nessuna recensione degli utenti",
+        "reviews_total": "0",
+        "reviews_percent": 0,
+        "release_date": 1628193155,
+        "release_string": "Fall 2021",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [],
+        "type": "Game",
+        "screenshots": [
+            "ss_2ebcc4e8ae92e5dbbc08cc3bf679497e39dca4cf.jpg",
+            "ss_ee5e8e23adf9e8e4ca7e278f18fe7e8c53d6311e.jpg",
+            "ss_72f4569e35556174598ec574a7abab0ea629b58d.jpg",
+            "ss_2ba06560888a258ecf78d7ad1af964c45f2d4eca.jpg"
+        ],
+        "review_css": "no_reviews",
+        "priority": 67,
+        "added": 1595648356,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 1000,
+        "tags": [
+            "GDR",
+            "Indie",
+            "Simulazione",
+            "Azione",
+            "Avventura"
+        ],
+        "is_free_game": false,
+        "prerelease": 1,
+        "win": 1
+    },
+    "1098080": {
+        "name": "3000th Duel",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1098080\/header_292x136.jpg?t=1597215914",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "336",
+        "reviews_percent": 79,
+        "release_date": "1576195378",
+        "release_string": "13 dic 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 370325,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_60f4b5c602235fa19319f5eaeb8cea8d5f60ce55.jpg",
+            "ss_7683cbbf52686cf35c09fc403a5a07b5e75445bc.jpg",
+            "ss_e89d07105a868c1fa6d9d05e0a1fbd880154bf5c.jpg",
+            "ss_a9a29001cf0dc6f44ef7d43a219fd3ea05554098.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 148,
+        "added": 1589072889,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 1000,
+        "tags": [
+            "Azione",
+            "Avventura",
+            "Indie",
+            "Metroidvania",
+            "Stile Souls"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "1106840": {
+        "name": "Hydroneer",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1106840\/header_292x136.jpg?t=1612369101",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "6,641",
+        "reviews_percent": 87,
+        "release_date": "1588941463",
+        "release_string": "8 mag 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 374005,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"819\"><div class=\"discount_prices\"><div class=\"discount_final_price\">8,19\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 819
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_45044b3c568cb166b743dc3f9ed05159b5cf1072.jpg",
+            "ss_d49df1159bd71974de78edc3c54f8f39a57be312.jpg",
+            "ss_833c0bba5a4ed1e9fd888d5c44c4d205c0007e90.jpg",
+            "ss_409f0ed6cc96dda8906d23864e093ba7c4914427.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 166,
+        "added": 1605919718,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 878,
+        "tags": [
+            "Simulazione",
+            "Scavi",
+            "Costruzioni",
+            "Indie",
+            "Sandbox"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1113000": {
+        "name": "Persona 4 Golden",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1113000\/header_292x136.jpg?t=1626689322",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "42,421",
+        "reviews_percent": 97,
+        "release_date": "1592070797",
+        "release_string": "13 giu 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 447601,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            },
+            {
+                "id": 376686,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">24,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_eaa97afeaed3e89d3032e8bb60cb8d6f331f241d.jpg",
+            "ss_c92cef1e572183055dab3d8bcdcbc5fe55deb0cc.jpg",
+            "ss_949196116c67aa963863a94def5a810a6d12979c.jpg",
+            "ss_e772d1ad98a07b52e4434ef0fe1e8251e5908629.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 8,
+        "added": 1592145377,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 776,
+        "tags": [
+            "GDR giapponesi",
+            "Colonna sonora eccezionale",
+            "Storia ben curata",
+            "Anime",
+            "GDR"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1113560": {
+        "name": "NieR Replicant\u2122 ver.1.22474487139...",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1113560\/header_292x136.jpg?t=1626255600",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "9,047",
+        "reviews_percent": 86,
+        "release_date": "1619193600",
+        "release_string": "23 apr",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 502733,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"5999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">59,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 5999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_2ff3ddb26c30b8397bce45abd0b4d847c3457259.jpg",
+            "ss_f33bdbe53fa2d75e429f9b35a1299109c9ab8991.jpg",
+            "ss_b7867dae1f1fa62a2cc82165c8c79eb6821782d6.jpg",
+            "ss_8d7a5e5a0a7fe7782bf238763a2e29f8f6419e84.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 7,
+        "added": 1600984531,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 838,
+        "tags": [
+            "Colonna sonora eccezionale",
+            "Storia ben curata",
+            "Azione",
+            "GDR",
+            "Avventura"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1119700": {
+        "name": "As Far As The Eye",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1119700\/header_292x136.jpg?t=1619197500",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "1,255",
+        "reviews_percent": 78,
+        "release_date": "1599753510",
+        "release_string": "10 set 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 379277,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"839\"><div class=\"discount_pct\">-60%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">20,99\u20ac<\/div><div class=\"discount_final_price\">8,39\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 60,
+                "price": 839
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_3e318eb2663a74d6d7d909c3bd2805eeb7b5dfd1.jpg",
+            "ss_222eaa7ee016787eb75afd2a91e95c0553aef724.jpg",
+            "ss_43d76f1058bccb62de4955ac0887cc9723858cc4.jpg",
+            "ss_7df83e9a9a7ed1403eb0b10271ad589e3239ae33.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 167,
+        "added": 1600308791,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 933,
+        "tags": [
+            "Strategia",
+            "Giocatore singolo",
+            "Costruzioni",
+            "Sopravvivenza",
+            "Simulatori di colonie"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1123770": {
+        "name": "Curse of the Dead Gods",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1123770\/header_292x136.jpg?t=1628155674",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "3,874",
+        "reviews_percent": 87,
+        "release_date": "1614099488",
+        "release_string": "23 feb",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 381439,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_855348f3239b58910b8e8a26be36f37e17dd82b3.jpg",
+            "ss_1f9eec462da56aa29185a66accd8c3e5693a09a1.jpg",
+            "ss_8c74d954e6e9492b160dc18b5f91b13e37ad9ddb.jpg",
+            "ss_d106fc8a04f493335efb18d3fe8c53cb77cd3ba4.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 149,
+        "added": 1589072835,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 798,
+        "tags": [
+            "Azione stile Rogue",
+            "Fantasy dark",
+            "Prospettiva isometrica",
+            "Azione",
+            "Lotta"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1127400": {
+        "name": "Mindustry",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1127400\/header_292x136.jpg?t=1613518068",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "7,964",
+        "reviews_percent": 97,
+        "release_date": "1569531538",
+        "release_string": "26 set 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 382935,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">4,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_a124f701b2eec73e5093ad147083fad1ac21ebbc.jpg",
+            "ss_9dd6927f900024e28b8ce78ecee22cbce346778b.jpg",
+            "ss_27c73eb996e4320ce8adf7aa4bc38c564b3b575d.jpg",
+            "ss_19dbb62a615fc63788cf499ab948947fe365a9d2.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 50,
+        "added": 1576992665,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 908,
+        "tags": [
+            "Costruzione di basi",
+            "Difesa della torre",
+            "Gestione delle risorse",
+            "Strategia",
+            "Multigiocatore"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1138660": {
+        "name": "Black Book",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1138660\/header_292x136.jpg?t=1627907340",
+        "review_score": 0,
+        "review_desc": "Nessuna recensione degli utenti",
+        "reviews_total": "0",
+        "reviews_percent": 0,
+        "release_date": 1628193155,
+        "release_string": "10 agosto",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [],
+        "type": "Game",
+        "screenshots": [
+            "ss_a3e13ed29db0551d6d1b35fe0fedfcbc101373a3.jpg",
+            "ss_8bc6a5f3c8f3cfc6e93776f885a7e99cee251c65.jpg",
+            "ss_f9d547ebd3b5705c16f7f59b2b33b2f938d2ba80.jpg",
+            "ss_97b1f30654129ef9092ba8529a981e8b09a0170e.jpg"
+        ],
+        "review_css": "no_reviews",
+        "priority": 63,
+        "added": 1589311094,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 1000,
+        "tags": [
+            "Strategia",
+            "GDR",
+            "Indie",
+            "Avventura",
+            "Giochi di carte"
+        ],
+        "is_free_game": false,
+        "prerelease": 1,
+        "win": 1
+    },
+    "1139900": {
+        "name": "Ghostrunner",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1139900\/header_292x136.jpg?t=1626793032",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "21,703",
+        "reviews_percent": 92,
+        "release_date": "1603814400",
+        "release_string": "27 ott 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 511201,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_6f7ea1399cdf74cfafb0ddbf397ccb1f04f2bb04.jpg",
+            "ss_b3685fcab4d6f60c9fd54ffe8757ccaaef803d9e.jpg",
+            "ss_8f6b985f8568ccca30ddfe28b9b26fcf4468eaa5.jpg",
+            "ss_4df66f282c6aed12f941b3f7eb4c6fc3de3a8ea8.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 13,
+        "added": 1592328813,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1097350\/page_bg_generated_v6b.jpg?t=1626957170",
+        "rank": 442,
+        "tags": [
+            "Azione",
+            "Cyberpunk",
+            "Prima persona",
+            "Frenetici",
+            "Giocatore singolo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1143810": {
+        "name": "Black Skylands",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1143810\/header_292x136.jpg?t=1626803884",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "317",
+        "reviews_percent": 83,
+        "release_date": "1625848443",
+        "release_string": "9 lug",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 389275,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_86dd003bb97063a999cb9f1dd51344cc8c6dff07.jpg",
+            "ss_f08de6774c74b7a900bdc63562cdd1f4317a2451.jpg",
+            "ss_e6f4a2981dc5a0675318b8073afa119ec200ea88.jpg",
+            "ss_91b63ac71b027c32e1b0453199fbe9b973a59493.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 71,
+        "added": 1588813092,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1143810\/page_bg_generated_v6b.jpg?t=1626803884",
+        "rank": 912,
+        "tags": [
+            "Pixel art",
+            "Simulazione",
+            "Sandbox",
+            "Indie",
+            "Atmosfera ben riuscita"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1
+    },
+    "1147560": {
+        "name": "Skul: The Hero Slayer",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1147560\/header_292x136.jpg?t=1624329165",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "20,889",
+        "reviews_percent": 93,
+        "release_date": "1611185717",
+        "release_string": "21 gen",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 390952,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_b5ed9f9f5c95df4e168107d024cd4107bc2223e3.jpg",
+            "ss_4d085911571f127e48dc392c0db50d97e810fb39.jpg",
+            "ss_119845ea870bb04a8c75abbef135f6a21cc0687c.jpg",
+            "ss_44eae43480fa6d9c350bf6d1100e6d8dc911d8ee.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 73,
+        "added": 1588194306,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1147560\/page_bg_generated_v6b.jpg?t=1624329165",
+        "rank": 1000,
+        "tags": [
+            "Indie",
+            "Azione",
+            "Azione stile Rogue",
+            "Pixel art",
+            "Roguelite"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1148650": {
+        "name": "The Legend of Bum-Bo",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1148650\/header_292x136.jpg?t=1573677510",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "4,914",
+        "reviews_percent": 81,
+        "release_date": "1573581600",
+        "release_string": "12 nov 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 391356,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_897369edd4c3f8ec9f71c14da4d39b12c6801d7e.jpg",
+            "ss_10d4c4f0d327bdbd8b95d5e0d61f4e21f2c2ed34.jpg",
+            "ss_9959af756eb797061a008f4b91df05c5b984b4fe.jpg",
+            "ss_46c0ec1bd1bb20608c7e2049b3203746d6efab3e.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 98,
+        "added": 1573597813,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1147560\/page_bg_generated_v6b.jpg?t=1624329165",
+        "rank": 1000,
+        "tags": [
+            "Roguelite",
+            "Indie",
+            "Strategia",
+            "Avventura",
+            "Rompicapo"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1150690": {
+        "name": "OMORI",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/header_292x136.jpg?t=1618373247",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "19,998",
+        "reviews_percent": 99,
+        "release_date": "1608883234",
+        "release_string": "25 dic 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 392170,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_219463835487a7205f0af93fb02d2c84855c667b.jpg",
+            "ss_4bb5647e9094a13078d23f2a9daa4a9bd160841e.jpg",
+            "ss_72e19b9ca001c03084b9eb7f5665514e60a6a6dd.jpg",
+            "ss_14bd4cd7c2be96cdffa112d991ce755600c8ad72.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 176,
+        "added": 1613337751,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 627,
+        "tags": [
+            "Horror psicologici",
+            "Storia ben curata",
+            "Indie",
+            "Pixel art",
+            "Disegnati a mano"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "1151640": {
+        "name": "Horizon Zero Dawn\u2122 Complete Edition",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1151640\/header_292x136.jpg?t=1623162512",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "42,349",
+        "reviews_percent": 82,
+        "release_date": "1596812220",
+        "release_string": "7 ago 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 392522,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_d09106060fb7de8bf342c23df18b14debc8a15a3.jpg",
+            "ss_271f850eec3f96b22aa17be35b948268e0771c7f.jpg",
+            "ss_15f5759c441e4e5f51e1a8ee333e4ab9df9aa783.jpg",
+            "ss_9db45aa04e8c8b5043b479f42ed36296bfc3a918.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 25,
+        "added": 1594512959,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 1000,
+        "tags": [
+            "Mondo aperto",
+            "Avventura",
+            "Azione",
+            "Protagonista femminile",
+            "GDR"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1172380": {
+        "name": "STAR WARS Jedi: Fallen Order\u2122",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1172380\/header_292x136.jpg?t=1614960636",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "64,960",
+        "reviews_percent": 90,
+        "release_date": "1573794000",
+        "release_string": "15 nov 2019",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 401585,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            },
+            {
+                "id": 401587,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_695a5724e306269d81ca0118d86308a170c9e913.jpg",
+            "ss_cfad9481db1a3b68fb5fcb2298cfc74bcb6a469e.jpg",
+            "ss_763dcc7434f072d6fdbb9037b4d37f4474e29d9b.jpg",
+            "ss_045d78dba983384cf8282e617e7ba04e40a9e2e9.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 72,
+        "added": 1576992948,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 866,
+        "tags": [
+            "Azione\/avventura",
+            "Terza persona",
+            "Stile Souls",
+            "Spade",
+            "Platform"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "240720": {
+        "name": "Getting Over It with Bennett Foddy",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/240720\/header_292x136.jpg?t=1577387341",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "33,684",
+        "reviews_percent": 83,
+        "release_date": "1512590409",
+        "release_string": "6 dic 2017",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 201019,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"699\"><div class=\"discount_prices\"><div class=\"discount_final_price\">6,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 699
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_413828bfd197dae1e356f6b43c4c38a9d3466591.jpg",
+            "ss_b0efcf546b861e6fbb6f6a703c2374536af761f5.jpg",
+            "ss_ba1b345f67daf713bd94934e0d837eb7f3625e4e.jpg",
+            "ss_7b0cb6b5294d7deffa3afafe6d00aa8e5c958e47.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 17,
+        "added": 1627569927,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 887,
+        "tags": [
+            "Horror psicologici",
+            "Difficili",
+            "Giocatore singolo",
+            "Fisica",
+            "Divertenti"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1178210": {
+        "name": "Stirring Abyss",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1178210\/header_292x136.jpg?t=1614684171",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "170",
+        "reviews_percent": 86,
+        "release_date": "1603987276",
+        "release_string": "29 ott 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 404674,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2099\"><div class=\"discount_prices\"><div class=\"discount_final_price\">20,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2099
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_4128fd91442cc312bfe65c18f554a098d8d7d44d.jpg",
+            "ss_2b5d69a29ece0aa027ec74b13bfa79f010ae76a9.jpg",
+            "ss_17f52c42d454bb5e8a6710458f9cb55d8abda05e.jpg",
+            "ss_6607eb56aee3a0c2ef13ca79aa61b77e20dadba1.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 38,
+        "added": 1605919255,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 1000,
+        "tags": [
+            "Ispirati da Lovecraft",
+            "Sott'acqua",
+            "GDR",
+            "GDR tattici",
+            "Horror psicologici"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1178490": {
+        "name": "\u6e2f\u8a6d\u5be6\u9304ParanormalHK",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1178490\/header_292x136.jpg?t=1610104858",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "8,055",
+        "reviews_percent": 90,
+        "release_date": "1578311666",
+        "release_string": "6 gen 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 404764,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1079\"><div class=\"discount_prices\"><div class=\"discount_final_price\">10,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1079
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_f5d8eae635d250fd19e957c578e8ffbeaa37052b.jpg",
+            "ss_56add4c0136edb788cb1e6640c42b2993456e9ff.jpg",
+            "ss_f52da042b1e93ffd715bf239a83b77c10d0ad8ec.jpg",
+            "ss_08e6d076426f398a092680bec6e1dd3a44d9721e.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 153,
+        "added": 1593198057,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 1000,
+        "tags": [
+            "Horror",
+            "Avventura",
+            "Indie",
+            "Horror psicologici",
+            "Contenuti sessuali"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1190460": {
+        "name": "DEATH STRANDING",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1190460\/header_292x136.jpg?t=1616683107",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "38,049",
+        "reviews_percent": 93,
+        "release_date": "1594735200",
+        "release_string": "14 lug 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 489555,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"5999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">59,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 5999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_f1299ccecc38f8e32f2a29994723befbc96fff23.jpg",
+            "ss_462bca43d807ae279dab95ce891b19cbcb27486f.jpg",
+            "ss_6808ff9f0e130075aca75cfb4017e06fe888fd32.jpg",
+            "ss_b271ebb037f7d9f6ae15042dc04fc469c6ddd8d2.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 3,
+        "added": 1589072807,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1150690\/page_bg_generated_v6b.jpg?t=1618373247",
+        "rank": 1000,
+        "tags": [
+            "Simulatori di esplorazione",
+            "Mondo aperto",
+            "Storia ben curata",
+            "Colonna sonora eccezionale",
+            "Atmosfera ben riuscita"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1210030": {
+        "name": "\ub178\ubca0\ub098 \ub514\uc544\ubcfc\ub85c\uc2a4",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1210030\/header_292x136.jpg?t=1587913331",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "1,050",
+        "reviews_percent": 94,
+        "release_date": "1587913335",
+        "release_string": "26 apr 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 418177,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1599\"><div class=\"discount_prices\"><div class=\"discount_final_price\">15,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1599
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_6f3a9a920d3f8cf63e6e6922efe26822f20df364.jpg",
+            "ss_ff10e271a41c7665949e837b39323dfb99c6ae42.jpg",
+            "ss_16d8a194b9b8382852ceb22962d3572b5efa8773.jpg",
+            "ss_b4136da29578963d9ec931977e9ee06a2e8b4362.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 150,
+        "added": 1589072871,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1210030\/page_bg_generated_v6b.jpg?t=1587913331",
+        "rank": 1000,
+        "tags": [
+            "Simulazione",
+            "Avventura",
+            "Indie",
+            "Racconti visivi",
+            "Detective"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "1226990": {
+        "name": "Mechanica",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1226990\/header_292x136.jpg?t=1626160390",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "366",
+        "reviews_percent": 90,
+        "release_date": "1582938033",
+        "release_string": "29 feb 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 425281,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_3a6df0549d3069200276ecfb8a0738312400b267.jpg",
+            "ss_37d916417f4e90eb829d113db0cad685cf633740.jpg",
+            "ss_9c338c10adfa4f814ee24b9ce9b1e8b94ebaf00f.jpg",
+            "ss_c040ccbbcec6e28b0f483005a48bccccc63793ff.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 151,
+        "added": 1589075711,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1210030\/page_bg_generated_v6b.jpg?t=1587913331",
+        "rank": 1000,
+        "tags": [
+            "Accesso anticipato",
+            "Indie",
+            "Costruzioni",
+            "Programmazione",
+            "Sopravvivenza"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1
+    },
+    "1229380": {
+        "name": "Everhood",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1229380\/header_292x136.jpg?t=1626890200",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "3,889",
+        "reviews_percent": 96,
+        "release_date": "1614870027",
+        "release_string": "4 mar",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 426229,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">9,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_2ccaf409fb4cf7252bfa3a8bab01bce7ad006a57.jpg",
+            "ss_966b12d4227e9976f11ffe74bfcd42368129805e.jpg",
+            "ss_f809bba93b1dc91ff39a091ed78d02102303623a.jpg",
+            "ss_0fa3ebe1b71885badb67f8a561487a4854624f41.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 180,
+        "added": 1619563804,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1229380\/page_bg_generated_v6b.jpg?t=1626890200",
+        "rank": 1000,
+        "tags": [
+            "Colonna sonora eccezionale",
+            "Musica",
+            "Storia ben curata",
+            "2D",
+            "GDR"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1229490": {
+        "name": "ULTRAKILL",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1229490\/header_292x136.jpg?t=1624470586",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "10,405",
+        "reviews_percent": 100,
+        "release_date": "1599151946",
+        "release_string": "3 set 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 426268,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_8c743b6de2d6124bd583d8764f28cafe2b7ecb3f.jpg",
+            "ss_c579ccd183640ee8f50ea1a86b27d1f2948b642c.jpg",
+            "ss_1a9ff658fe692a7868ec61dfa9e7c152981b79bd.jpg",
+            "ss_520b062259b2460e5ce5d5043550737af9a65f8c.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 168,
+        "added": 1600308879,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1229380\/page_bg_generated_v6b.jpg?t=1626890200",
+        "rank": 824,
+        "tags": [
+            "Accesso anticipato",
+            "Sparatutto in prima persona",
+            "Sparatutto in arena",
+            "Combattimenti spettacolari",
+            "Personaggi d'azione"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1
+    },
+    "1282730": {
+        "name": "Loop Hero",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/header_292x136.jpg?t=1622216995",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "18,178",
+        "reviews_percent": 94,
+        "release_date": "1614880560",
+        "release_string": "4 mar",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span><span class=\"platform_img linux\"><\/span>",
+        "subs": [
+            {
+                "id": 446993,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">14,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_500e7212653fa6586f7a84c89b4c60be4e425fbb.jpg",
+            "ss_455789884ed94fd20410ac5a139e8c3bb8f6f369.jpg",
+            "ss_d6cf090e7c644756cc66443c0740f5497e6afbba.jpg",
+            "ss_6a416c70c8f1bc80c84a02a0627d2050061b0e39.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 177,
+        "added": 1615050681,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/page_bg_generated_v6b.jpg?t=1622216995",
+        "rank": 1000,
+        "tags": [
+            "Tattici",
+            "Scelte e conseguenze",
+            "Costruzione di mazzi",
+            "Stile Rogue",
+            "Indie"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1,
+        "linux": 1
+    },
+    "1286350": {
+        "name": "BPM: BULLETS PER MINUTE",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1286350\/header_292x136.jpg?t=1625590185",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "5,543",
+        "reviews_percent": 93,
+        "release_date": "1600185465",
+        "release_string": "15 set 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 448447,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_4bb27e9c468fe6c3b241859737b03ee199b1ca68.jpg",
+            "ss_0a33fd48f1828324241d2f9a02600c207832025a.jpg",
+            "ss_358ebf575ae9d4e2c70a1ddfca991755dd96a064.jpg",
+            "ss_1ea80f173a9c2a7881d46a2a277f2839ce644193.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 169,
+        "added": 1600308678,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/page_bg_generated_v6b.jpg?t=1622216995",
+        "rank": 801,
+        "tags": [
+            "Azione",
+            "Indie",
+            "Ritmici",
+            "Sparatutto in prima persona",
+            "Stile Rogue"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1291340": {
+        "name": "Townscaper",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1291340\/header_292x136.jpg?t=1625128161",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "9,162",
+        "reviews_percent": 98,
+        "release_date": "1593531452",
+        "release_string": "30 giu 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 450448,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">4,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_23017d1b31ca7ba6356fc94c86d8650e793eb25b.jpg",
+            "ss_6f7ad0f37b5cb98b75b7173dd8d5fde36cfc60ed.jpg",
+            "ss_a4aced9958936353cb10028fddda9fdcdad684b1.jpg",
+            "ss_77835aa742b98f16f5e42a0c48ca6fa66b60be5a.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 54,
+        "added": 1594513001,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/page_bg_generated_v6b.jpg?t=1622216995",
+        "rank": 906,
+        "tags": [
+            "Costruzioni",
+            "Sandbox",
+            "Rilassanti",
+            "Passatempo",
+            "Generazione procedurale"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1,
+        "mac": 1
+    },
+    "1295510": {
+        "name": "DRAGON QUEST XI S: Echi di un'era perduta \u2013 Edizione definitiva",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1295510\/header_292x136_italian.jpg?t=1622131694",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "2,861",
+        "reviews_percent": 94,
+        "release_date": "1607101200",
+        "release_string": "4 dic 2020",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 451932,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"3999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">39,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 3999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_dbc2a77c05f0bf8d17661b6bdf54f88e14fbfaeb.jpg",
+            "ss_772fb429e771ac9a8b14bf5ce6d33abcdad07f59.jpg",
+            "ss_f0283ac8c755261d2a1055015b440f6b9ed1532f.jpg",
+            "ss_0346ee12095dbe1dc2ebd3362472f66e024ad0f6.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 106,
+        "added": 1608592570,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/page_bg_generated_v6b.jpg?t=1622216995",
+        "rank": 667,
+        "tags": [
+            "GDR giapponesi",
+            "GDR",
+            "Combattimento a turni",
+            "GDR con gruppo",
+            "Storia ben curata"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1325200": {
+        "name": "Nioh 2 \u2013 The Complete Edition",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1325200\/header_292x136.jpg?t=1624438008",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "14,382",
+        "reviews_percent": 85,
+        "release_date": "1612512000",
+        "release_string": "5 feb",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 511759,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"5999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">59,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 5999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_c8ad5efb3acdb4099f77b8b611289e2aa00cd19c.jpg",
+            "ss_bb996dea7ada75409e8c328b4f60e1f262e165d9.jpg",
+            "ss_7fcca74473ea2678e90ee4cff018392007b8f1c0.jpg",
+            "ss_bdb077e9fcfabe5eca01571b8fd1bdbf03440d68.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 10,
+        "added": 1605918982,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1282730\/page_bg_generated_v6b.jpg?t=1622216995",
+        "rank": 544,
+        "tags": [
+            "GDR",
+            "Azione",
+            "Stile Souls",
+            "Co-op",
+            "Difficili"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1366540": {
+        "name": "Dyson Sphere Program",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/header_292x136.jpg?t=1627056827",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "42,055",
+        "reviews_percent": 98,
+        "release_date": "1611212340",
+        "release_string": "21 gen",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 479270,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1679\"><div class=\"discount_prices\"><div class=\"discount_final_price\">16,79\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1679
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_ca1c8ba11e539cbeb8f4d91f6685b0fa01ddf705.jpg",
+            "ss_36242c2930a50355982a0da128f37e23e25a1047.jpg",
+            "ss_602b6ca003277c4a70f63bd723a494a5558e1aee.jpg",
+            "ss_7b635ae1ca6d88b52fca183407f06cfd94850b26.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 178,
+        "added": 1613336504,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 850,
+        "tags": [
+            "Spazio",
+            "Automazione",
+            "Costruzione di basi",
+            "Mondo aperto",
+            "Simulazione"
+        ],
+        "is_free_game": false,
+        "early_access": 1,
+        "win": 1
+    },
+    "1382330": {
+        "name": "Persona\u00ae 5 Strikers",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1382330\/header_292x136.jpg?t=1625827957",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "5,696",
+        "reviews_percent": 93,
+        "release_date": "1614056220",
+        "release_string": "February 23rd 2021",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 551770,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"5999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">59,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 5999
+            },
+            {
+                "id": 526569,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"6999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">69,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 6999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_dcf8139ee8becf74ebbcda5d818ea4d9f16dc64f.jpg",
+            "ss_d58c1094e7b442571abaf60bd114c1f3c370bbc3.jpg",
+            "ss_71b63fbbd55221007aabf84fd4c150a6125329da.jpg",
+            "ss_8ab45ed170a4f44838dbd3fa4a8978c3a2313e62.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 9,
+        "added": 1616714015,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 1000,
+        "tags": [
+            "Anime",
+            "Hack & slash",
+            "Colonna sonora eccezionale",
+            "GDR giapponesi",
+            "Avventura"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1458100": {
+        "name": "Cozy Grove",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1458100\/header_292x136.jpg?t=1624459355",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "1,968",
+        "reviews_percent": 85,
+        "release_date": "1617854416",
+        "release_string": "8 apr",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 513370,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1249\"><div class=\"discount_prices\"><div class=\"discount_final_price\">12,49\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1249
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_4e637bfdb6089d8eadd6e23d7d7868628198bad1.jpg",
+            "ss_aac43099ed8e7c8cb1347dc23a565b4511443d52.jpg",
+            "ss_7ccc68d4ac9698f3066995d02587b50977dace71.jpg",
+            "ss_0314a8fb966ec7947dc2054c5d09825343eff4ec.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 181,
+        "added": 1620601617,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 1000,
+        "tags": [
+            "Rilassanti",
+            "Storia ben curata",
+            "Oggetti nascosti",
+            "Collectathon",
+            "Generazione procedurale"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1515950": {
+        "name": "Capcom Arcade Stadium",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1515950\/header_292x136.jpg?t=1624850337",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "123",
+        "reviews_percent": 81,
+        "release_date": "1621900800",
+        "release_string": "25 mag",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 595354,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1510\"><div class=\"discount_prices\"><div class=\"discount_final_price\">15,10\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1510
+            },
+            {
+                "id": 595357,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1510\"><div class=\"discount_prices\"><div class=\"discount_final_price\">15,10\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1510
+            },
+            {
+                "id": 595360,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1510\"><div class=\"discount_prices\"><div class=\"discount_final_price\">15,10\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1510
+            },
+            {
+                "id": 595363,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4050\"><div class=\"discount_prices\"><div class=\"discount_final_price\">40,50\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4050
+            },
+            {
+                "id": 595366,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4840\"><div class=\"discount_prices\"><div class=\"discount_final_price\">48,40\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4840
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_4edfca19595bf20053f387f0addaa544a03aa57f.jpg",
+            "ss_6e008f836ceecfcac2c4d1d54fe2bc9fcba4bfd1.jpg",
+            "ss_71bbf680a0bf36be44707309976c36001ed0246e.jpg",
+            "ss_ad12a484449be48cf5d5c08f7c175797fd0b28e8.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 183,
+        "added": 1621292469,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 952,
+        "tags": [
+            "Azione",
+            "Arcade",
+            "Platform 2D",
+            "Picchiaduro 2D",
+            "Free-to-Play"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "free": 1
+    },
+    "979690": {
+        "name": "The Ascent",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/979690\/header_292x136.jpg?t=1628172818",
+        "review_score": 6,
+        "review_desc": "Perlopi\u00f9 positiva",
+        "reviews_total": "4,601",
+        "reviews_percent": 79,
+        "release_date": "1627578000",
+        "release_string": "29 lug",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 322129,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"2699\"><div class=\"discount_pct\">-10%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">29,99\u20ac<\/div><div class=\"discount_final_price\">26,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 10,
+                "price": 2699
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_8632397359039045fc6c638f843272bf775b7efa.jpg",
+            "ss_3708227bd120f1cd9987ba1c49ddabaec15ed0e3.jpg",
+            "ss_4c29d46c7240c99b5e755164196153a9797ceeb6.jpg",
+            "ss_3dc5f44c56f68f053d47a55e51751bf30c085b3c.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 182,
+        "added": 1627662809,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 100,
+        "tags": [
+            "Azione",
+            "Cyberpunk",
+            "Sparatutto dall'alto",
+            "GDR",
+            "Sparatutto"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1123050": {
+        "name": "GRIME",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1123050\/header_292x136.jpg?t=1627916461",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "483",
+        "reviews_percent": 83,
+        "release_date": "1627908729",
+        "release_string": "2 ago",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 381096,
+                "discount_block": "<div class=\"discount_block discount_block_large\" data-price-final=\"1889\"><div class=\"discount_pct\">-10%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">20,99\u20ac<\/div><div class=\"discount_final_price\">18,89\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 10,
+                "price": 1889
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_9e4567daf2897cf9ff7713639bec6710417ed1dd.jpg",
+            "ss_04e45339cb1a569bb6089a26164d25aeba0d9083.jpg",
+            "ss_2ec1b547f9f66309c18c4c9626f004eb5e616066.jpg",
+            "ss_45847e93997a32446fd274f7d447e8df86de8375.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 16,
+        "added": 1628020973,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 160,
+        "tags": [
+            "Metroidvania",
+            "Stile Souls",
+            "Platform",
+            "Fantasy dark",
+            "Azione\/avventura"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "1127500": {
+        "name": "Mini Motorways",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1127500\/header_292x136.jpg?t=1626998207",
+        "review_score": 9,
+        "review_desc": "Estremamente positiva",
+        "reviews_total": "4,197",
+        "reviews_percent": 95,
+        "release_date": "1626792759",
+        "release_string": "20 lug",
+        "platform_icons": "<span class=\"platform_img win\"><\/span><span class=\"platform_img mac\"><\/span>",
+        "subs": [
+            {
+                "id": 382983,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"819\"><div class=\"discount_prices\"><div class=\"discount_final_price\">8,19\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 819
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_3f005a71d2d2bef74c266e0e43cb5337c371fdac.jpg",
+            "ss_1184b4d7016f8fa62909c1e661d4072728977d25.jpg",
+            "ss_b55acbdeb6a232479e2ecb23c3b8e72ccda8eb29.jpg",
+            "ss_a4db48bc510aa79f01147e1137d1137143b2ca6d.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 11,
+        "added": 1628020987,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 466,
+        "tags": [
+            "Passatempo",
+            "Simulazione",
+            "Strategia",
+            "Indie",
+            "Gestionali"
+        ],
+        "is_free_game": false,
+        "win": 1,
+        "mac": 1
+    },
+    "894020": {
+        "name": "Death's Door",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/894020\/header_292x136.jpg?t=1627414742",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "2,878",
+        "reviews_percent": 95,
+        "release_date": "1626785410",
+        "release_string": "20 lug",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 285482,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"1999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">19,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 1999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_dd9b5a2e40d3d512d1c978a5dfda5999c458a517.jpg",
+            "ss_46cbadf5477da2909c9ef5c4539a977314da03e0.jpg",
+            "ss_bf0108947fe505dc28e4cf0cad288c57b4efeca0.jpg",
+            "ss_83e57d823ecb8559cd3c70cef500b33d4b841787.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 15,
+        "added": 1628021037,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 608,
+        "tags": [
+            "Azione",
+            "Avventura",
+            "GDR",
+            "GDR d'azione",
+            "Azione\/avventura"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "775500": {
+        "name": "SCARLET NEXUS",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/775500\/header_292x136.jpg?t=1627637097",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "4,490",
+        "reviews_percent": 86,
+        "release_date": "1624572000",
+        "release_string": "25 giu",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 232758,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"4999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">49,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 4999
+            },
+            {
+                "id": 554550,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"6499\"><div class=\"discount_prices\"><div class=\"discount_final_price\">64,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 6499
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_19a0a0a12d89ce5156aab7a748af036c6083fd49.jpg",
+            "ss_1120f94885d497869ad027f248b57eb8d277ccc1.jpg",
+            "ss_16d428525362bcd1c4d3900ecad83e043b67cea8.jpg",
+            "ss_2ad08a0b32971ef1d86d77a846721a79ec84cc48.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 5,
+        "added": 1628122676,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 1000,
+        "tags": [
+            "Azione",
+            "GDR",
+            "Avventura",
+            "Anime",
+            "GDR d'azione"
+        ],
+        "is_free_game": false,
+        "win": 1
+    },
+    "287700": {
+        "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+        "capsule": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/287700\/header_292x136.jpg?t=1591740509",
+        "review_score": 8,
+        "review_desc": "Molto positiva",
+        "reviews_total": "43,377",
+        "reviews_percent": 90,
+        "release_date": "1441126800",
+        "release_string": "1 set 2015",
+        "platform_icons": "<span class=\"platform_img win\"><\/span>",
+        "subs": [
+            {
+                "id": 40085,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            },
+            {
+                "id": 132479,
+                "discount_block": "<div class=\"discount_block discount_block_large no_discount\" data-price-final=\"2999\"><div class=\"discount_prices\"><div class=\"discount_final_price\">29,99\u20ac<\/div><\/div><\/div>",
+                "discount_pct": 0,
+                "price": 2999
+            }
+        ],
+        "type": "Game",
+        "screenshots": [
+            "ss_258e5c725ba2da8a2fc2ee779ae75ba4b0aac0c6.jpg",
+            "ss_d4c1b17dad6eeeef8e1ade44a66d8e644afcc4e6.jpg",
+            "ss_969065fca2ad4538c2e7ed5d8bbd91cbd060cf47.jpg",
+            "ss_dec3093b6d3ad9b688fd08df420c0f1053abc881.jpg"
+        ],
+        "review_css": "positive",
+        "priority": 6,
+        "added": 1628128439,
+        "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/1366540\/page_bg_generated_v6b.jpg?t=1627056827",
+        "rank": 1000,
+        "tags": [
+            "Stealth",
+            "Mondo aperto",
+            "Azione",
+            "Storia ben curata",
+            "Tattici"
+        ],
+        "is_free_game": false,
+        "win": 1
+    }
+}
