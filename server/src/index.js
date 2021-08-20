@@ -2,7 +2,7 @@ const express = require('express')
 const api = require('./api')
 
 const app = express()
-const PORT = 1290
+const PORT = 2000
 
 app.get('/wishlist/:id', async (req, res) => {
   try {

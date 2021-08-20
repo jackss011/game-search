@@ -8,12 +8,12 @@ async function steamSearchGames(term) {
     term
   )}&ignore_preferences=1`
 
-  const text = await fetch(url).then((r) => r.text())
+  const text = await fetch(url).then(r => r.text())
   const $ = cheerio.load(text)
 
   const results = $('#search_resultsRows > a')
     .toArray()
-    .map((r) => {
+    .map(r => {
       const appId = r.attribs['data-ds-appid']
       const bundleId = r.attribs['data-ds-bundleid']
       const name = $(r).find('.title').text()
@@ -24,6 +24,26 @@ async function steamSearchGames(term) {
   return results
 }
 
+async function steamAppDetails(appId) {
+  const url = `https://store.steampowered.com/api/appdetails?appids=${appId}`
+
+  const json = await fetch(url).then(r => r.json())
+  const appDetails = json?.[appId]?.['data']
+
+  if (!appDetails) throw new Error('Cannot get app details')
+
+  // console.log(appDetails)
+
+  const result = {
+    appId,
+    name: appDetails['name'],
+    price: appDetails['price_overview']['final'] / 100,
+    discount: appDetails['price_overview']['discount_percent'] / 100,
+  }
+
+  return result
+}
+
 async function steamUserWishList(vanityUrl, usingProfiles = false) {
   const mode = !usingProfiles ? 'id' : 'profiles'
   const baseUrl = `https://store.steampowered.com/wishlist/${mode}/${vanityUrl}/wishlistdata`
@@ -32,7 +52,7 @@ async function steamUserWishList(vanityUrl, usingProfiles = false) {
   let done = false
   let result = []
 
-  const extractData = (json) =>
+  const extractData = json =>
     Object.entries(json).map(([appId, data]) => {
       const sub0 = data['subs']?.[0]
 
@@ -49,8 +69,7 @@ async function steamUserWishList(vanityUrl, usingProfiles = false) {
 
   while (!done) {
     const url = baseUrl + `/?p=${page}`
-    const request = await await fetch(url)
-    const json = await request.json()
+    const json = await await fetch(url).then(r => r.json())
 
     if (json.success) throw Error('Steam: failed wishlist fetch')
 
@@ -83,14 +102,14 @@ async function steamDbPriceHistory(appId) {
     String(appId).trim() +
     '&cc=eu'
 
-  const json = await fetch(url, { headers }).then((r) => r.json())
+  const json = await fetch(url, { headers }).then(r => r.json())
 
   if (json.success === false) throw new Error('SteamDB: wrong prices url')
 
   const priceHistory = json?.data?.history
   if (!priceHistory) throw new Error('SteamDB: wrong prices json format')
 
-  return priceHistory.map((p) => ({ time: p.x, price: p.y, discount: p.d }))
+  return priceHistory.map(p => ({ time: p.x, price: p.y, discount: p.d }))
 }
 
 async function igSearchGames(term) {
@@ -110,12 +129,12 @@ async function igSearchGames(term) {
       'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
   }
 
-  const text = await fetch(url, { headers }).then((r) => r.text())
+  const text = await fetch(url, { headers }).then(r => r.text())
   const $ = cheerio.load(text)
 
   const $searchItems = $('div.item')
 
-  const result = $searchItems.toArray().map((item) => {
+  const result = $searchItems.toArray().map(item => {
     const name = $(item).find('div.name').text()
     const price = parseFloat(item.attribs['data-price'])
     const dlc = String(item.attribs['data-dlc']) === '1'
@@ -133,6 +152,7 @@ async function igSearchGames(term) {
 
 module.exports = {
   steamSearchGames,
+  steamAppDetails,
   steamUserWishList,
   steamDbPriceHistory,
   igSearchGames,
