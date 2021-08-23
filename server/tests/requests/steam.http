@@ -1,0 +1,5 @@
+GET https://store.steampowered.com/search/?term=Stranding&ignore_preferences=1
+###
+GET https://store.steampowered.com/api/appdetails?appids=57690
+###
+GET https://store.steampowered.com/wishlist/id/jackss14/wishlistdata

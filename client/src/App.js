@@ -1,5 +1,11 @@
+import Wishlist from './components/Wishlist'
+
 function App() {
-  return <div className="App bg-red-400">App</div>
+  return (
+    <div className="container">
+      <Wishlist />
+    </div>
+  )
 }
 
 export default App
