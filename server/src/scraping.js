@@ -100,7 +100,8 @@ scraper.define(
       'accept-language': 'en-US;q=0.9,en;q=0.8',
       accept: 'application/json, text/javascript, */*; q=0.01',
       'user-agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36' +
+        Math.round(Math.random() * 10),
       'x-requested-with': 'XMLHttpRequest',
       'accept-encoding': 'gzip, deflate, br',
       referer: `'https://steamdb.info/app/${appId}/`,
@@ -111,7 +112,12 @@ scraper.define(
       String(appId).trim() +
       '&cc=eu'
 
-    const json = await fetch(url, { headers }).then(r => r.json())
+    const page = await fetch(url, { headers })
+    // console.log(await page.text())
+    // process.exit(1)
+    if (page.status === 429) throw new Error('SteamDB: too many requests')
+
+    const json = await page.json()
 
     if (json.success === false) throw new Error('SteamDB: wrong prices url')
 

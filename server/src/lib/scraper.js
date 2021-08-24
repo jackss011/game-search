@@ -9,11 +9,41 @@ export default class Scraper {
       hits: 0,
     }
 
+    this.pendingQueries = {}
+
     this.initalized = (async () => {
       await this.db.read()
       if (!this.db.data) this.db.data = { queries: {}, limit: {} }
-      this.queries = this.db.data.queries
+      this.savedQueries = this.db.data.queries
+
+      const keys = Object.keys(this.savedQueries).filter(k =>
+        k.includes('steamdb')
+      )
+
+      console.log('cached steamdb price history count:', keys.length)
     })()
+  }
+
+  getCachedQuery(key, params, lifetime) {
+    const id = queryId(key, params)
+    const cachedQuery = this.savedQueries[id]
+
+    if (cachedQuery && Date.now() - cachedQuery.timestamp <= lifetime * 1000) {
+      this.stats.hits += 1
+      return cachedQuery.value
+    } else {
+      this.stats.miss += 1
+      return null
+    }
+  }
+
+  saveCachedQuery(key, params, value) {
+    const id = queryId(key, params)
+
+    this.savedQueries[id] = {
+      timestamp: Date.now(),
+      value,
+    }
   }
 
   define(key, options, callback) {
@@ -34,7 +64,7 @@ export default class Scraper {
     return this
   }
 
-  async perform(key, params) {
+  async perform(key, params, immediate) {
     await this.initalized
 
     const def = this.definitions[key]
@@ -47,30 +77,41 @@ export default class Scraper {
 
     // retrieve from cache
     if (cache) {
-      const id = queryId(key, params)
-      const q = this.queries[id]
-
-      if (q && Date.now() - q.timestamp <= cache * 1000) {
-        this.stats.hits += 1
-        return q.value
-      } else {
-        this.stats.miss += 1
-      }
+      const cachedValue = this.getCachedQuery(key, params, cache)
+      if (cachedValue) return cachedValue
     }
 
-    // scrape actual value
-    const value = await def.callback(params)
+    // check if has pending promise with same query (ley + params)
+    const id = queryId(key, params)
+    let pendingQuery = this.pendingQueries[id]
 
-    // save to cache
-    if (cache) {
-      const id = queryId(key, params)
-      this.queries[id] = {
-        timestamp: Date.now(),
-        value,
+    // if does not have pending promise create one
+    if (!pendingQuery) {
+      const retrievePromise = async () => {
+        // scrape actual value
+
+        try {
+          const value = await def.callback(params)
+
+          // save to cache
+          if (cache) {
+            this.saveCachedQuery(key, params, value)
+          }
+
+          return value
+        } catch (e) {
+          console.error('Failed to fetch steamDB for', params[0])
+          console.error(e)
+        } finally {
+          this.pendingQueries[id] = null
+        }
       }
+
+      this.pendingQueries[id] = pendingQuery = retrievePromise(id)
     }
 
-    return value
+    // if immediate return null else await promise resolution
+    return immediate ? null : await pendingQuery
   }
 
   save() {

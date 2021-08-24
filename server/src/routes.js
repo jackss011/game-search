@@ -3,12 +3,22 @@ import * as api from './api.js'
 
 const router = Router()
 
-router.get('/wishlist/:id', async (req, res) => {
+router.get('/wishlist/:steamId', async (req, res) => {
   try {
-    const items = await api.wishlist(req.params.id)
+    const items = await api.wishlist(req.params.steamId)
     res.json({ items })
   } catch (e) {
-    res.sendStatus(501)
+    res.sendStatus(500)
+    console.error(e)
+  }
+})
+
+router.get('/history/:appId', async (req, res) => {
+  try {
+    const history = await api.priceHistory(req.params.appId)
+    res.json({ history })
+  } catch (e) {
+    res.sendStatus(500)
     console.error(e)
   }
 })
