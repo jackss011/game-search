@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./src"
   },
-  "author": "",
+  "author": "Giacomo Agnetti",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",

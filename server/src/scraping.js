@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 import Scraper from './lib/scraper.js'
 
-const scraper = new Scraper()
+const scraper = new Scraper('api')
 
 async function steamSearchGames(term) {
   term = term.trim()
@@ -68,7 +68,7 @@ scraper.define('steam-wishlist', { cache: 60 }, async ([vanityUrl]) => {
         priority: parseInt(data['priority']) ?? null,
         price: sub0?.['price'] / 100 ?? null,
         discount: sub0?.['discount_pct'] / 100 ?? null,
-        earlyAccess: String(data['early-access']) === '1',
+        earlyAccess: String(data['early_access']) === '1',
         prerelease: String(data['prerelease']) === '1',
       }
     })

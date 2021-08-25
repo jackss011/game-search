@@ -16,7 +16,10 @@ export async function wishlist(vanityUrl) {
       })
   })
 
-  const igResults = await Promise.all(igPromises)
+  const igResults = (await Promise.all(igPromises)).map(list =>
+    list.filter(({ dlc, platform }) => !dlc && platform === 'steam')
+  )
+
   const dbResults = await Promise.all(dbPromises)
 
   scraper.save()

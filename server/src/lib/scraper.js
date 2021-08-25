@@ -4,10 +4,7 @@ export default class Scraper {
   constructor(dbName) {
     this.db = new Low(new JSONFile(`./${dbName}-scraper.db.json`))
     this.definitions = {}
-    this.stats = {
-      miss: 0,
-      hits: 0,
-    }
+    this.stats = {}
 
     this.pendingQueries = {}
 
@@ -29,10 +26,10 @@ export default class Scraper {
     const cachedQuery = this.savedQueries[id]
 
     if (cachedQuery && Date.now() - cachedQuery.timestamp <= lifetime * 1000) {
-      this.stats.hits += 1
+      this.stats[key].hits += 1
       return cachedQuery.value
     } else {
-      this.stats.miss += 1
+      this.stats[key].miss += 1
       return null
     }
   }
@@ -54,6 +51,8 @@ export default class Scraper {
     if (typeof options !== 'object' || typeof callback !== 'function') {
       throw new TypeError('Invalid scraper definition')
     }
+
+    this.stats[key] = { hits: 0, miss: 0 }
 
     this.definitions[key] = {
       key,
@@ -89,7 +88,6 @@ export default class Scraper {
     if (!pendingQuery) {
       const retrievePromise = async () => {
         // scrape actual value
-
         try {
           const value = await def.callback(params)
 
@@ -100,8 +98,11 @@ export default class Scraper {
 
           return value
         } catch (e) {
-          console.error('Failed to fetch steamDB for', params[0])
-          console.error(e)
+          if (immediate) {
+            // should log this
+          } else {
+            throw e
+          }
         } finally {
           this.pendingQueries[id] = null
         }
@@ -124,5 +125,3 @@ export default class Scraper {
 function queryId(key, params) {
   return 'query__' + key + '__params__' + params.map(p => String(p)).join('__')
 }
-
-// module.exports = Scraper
