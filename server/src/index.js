@@ -1,14 +1,31 @@
 import express from 'express'
 import cors from 'cors'
+import morgan from 'morgan'
+import dotenv from 'dotenv'
+import path from 'path'
 import router from './routes.js'
 
-const PORT = 2000
-
 const app = express()
-app.use(cors())
-app.use('/', router)
-app.listen(PORT, () => console.log('Server started successfully!'))
 
-// steamDbPriceHistory(788100).then((r) => console.log(r));
-// steamUserWishList("jackss14").then((r) => console.log(r.slice(0, 10)));
-// igSearchGames("Neon Abyss").then((r) => console.log(r));
+// config load
+dotenv.config({ path: path.join('config/config.env'), debug: true })
+
+// CORS headers
+app.use(cors())
+
+// HTTP logging
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('tiny'))
+}
+
+// routing
+app.use('/', router)
+
+// running server
+const PORT = process.env.PORT || 2000
+
+app.listen(PORT, () =>
+  console.log(
+    `Server started successfully on port ${PORT}! [${process.env.NODE_ENV}]`
+  )
+)
