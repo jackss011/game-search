@@ -185,3 +185,18 @@ function isDead(timestamp, lifetime, now) {
 function queryId(key, params) {
   return 'query__' + key + '__params__' + params.map(p => String(p)).join('__')
 }
+
+export class FetchError extends Error {
+  constructor(message, original) {
+    super(message || 'Scraper: error during fetch operation')
+    this.original = original
+    this.name = 'FetchError'
+  }
+}
+
+export class DataError extends Error {
+  constructor(message) {
+    super(message || 'Scraper: unexpected data from fetch')
+    this.name = 'DataError'
+  }
+}

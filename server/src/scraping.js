@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 import cheerio from 'cheerio'
-import Scraper from './lib/scraper.js'
+import Scraper, { DataError } from './lib/scraper.js'
 
 const scraper = new Scraper()
 
@@ -33,7 +33,7 @@ async function steamAppDetails(appId) {
   const json = await fetch(url).then(r => r.json())
   const appDetails = json?.[appId]?.['data']
 
-  if (!appDetails) throw new Error('Cannot get app details')
+  if (!appDetails) throw new DataError('Cannot get app details')
 
   // console.log(appDetails)
 
@@ -77,7 +77,7 @@ scraper.define('steam-wishlist', { cache: 60 }, async ([vanityUrl]) => {
     const url = baseUrl + `/?p=${page}`
     const json = await await fetch(url).then(r => r.json())
 
-    if (json.success) throw Error('Steam: failed wishlist fetch')
+    if (json.success) throw DataError('Steam: failed wishlist fetch')
 
     const pageData = extractData(json)
     result = result.concat(pageData)
@@ -119,10 +119,10 @@ scraper.define(
 
     const json = await page.json()
 
-    if (json.success === false) throw new Error('SteamDB: wrong prices url')
+    if (json.success === false) throw new DataError('SteamDB: wrong prices url')
 
     const priceHistory = json?.data?.history
-    if (!priceHistory) throw new Error('SteamDB: wrong prices json format')
+    if (!priceHistory) throw new DataError('SteamDB: wrong prices json format')
 
     return priceHistory.map(p => ({ time: p.x, price: p.y, discount: p.d }))
   }
