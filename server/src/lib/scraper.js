@@ -97,7 +97,6 @@ export default class Scraper {
       // call this function to perform the query
       const retrievePromise = async () => {
         // scrape actual value
-
         try {
           const value = await def.callback(params)
 
@@ -108,8 +107,11 @@ export default class Scraper {
 
           return value
         } catch (e) {
-          console.error('Failed to fetch steamDB for', params[0])
-          console.error(e)
+          if (immediate) {
+            // should log this
+          } else {
+            throw e
+          }
         } finally {
           this.pendingQueries[id] = null
         }

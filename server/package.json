@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=production node ./src",
     "dev": "cross-env NODE_ENV=development nodemon ./src"
   },
-  "author": "",
+  "author": "Giacomo Agnetti",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
