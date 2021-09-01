@@ -15,6 +15,35 @@ const Tag = ({ className, children }) => (
   </div>
 )
 
+const DiscountTag = ({ discount }) => (
+  <p className="bg-green-400 text-green-900 font-medium text-center text-md rounded-md">
+    {`-${Math.round(discount * 100)}%`}
+  </p>
+)
+
+const Price = ({ price, className }) => (
+  <p className={`text-white text-4xl tracking-wide ${className}`}>
+    {Math.round(price * 100) / 100}
+  </p>
+)
+
+const SteamPrice = ({ current, discount }) => {
+  const original = current / (1 - discount)
+
+  return (
+    <div className="flex flex-col space-y-1">
+      <Price
+        className={discount > 0 ? 'text-green-300' : 'text-white'}
+        price={current}
+      />
+      {discount > 0 && <DiscountTag discount={discount} />}
+      {/* {discount > 0 && (
+        <Price price={original} className="text-gray-500 line-through" />
+      )} */}
+    </div>
+  )
+}
+
 const WishlistItem = ({
   name,
   priority,
@@ -31,8 +60,8 @@ const WishlistItem = ({
       <img src={capsuleUrl} alt="thumbnail" />
     </div>
 
-    <div className="flex flex-col ml-4">
-      <div className="flex flex-row space-x-4 items-center self-start">
+    <div className="flex flex-col ml-4 items-start">
+      <div className="flex flex-row space-x-4 items-center">
         <h2 className="text-gray-300 text-xl">{name}</h2>
 
         <div className="flex flex-row space-x-2">
@@ -41,7 +70,8 @@ const WishlistItem = ({
         </div>
       </div>
 
-      <div className="h-full w-10 bg-pink-50 mt-2 opacity-10">
+      <div className="h-full mt-1">
+        <SteamPrice current={currentPrice} discount={currentDiscount} />
         {/* <p>{currentPrice}</p>
         {currentDiscount > 0 && <p>{currentDiscount}</p>} */}
       </div>

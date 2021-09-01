@@ -38,7 +38,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
+    "craco": "^0.0.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
-  }
+  },
+  "license": "ISC"
 }

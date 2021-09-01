@@ -87,7 +87,7 @@ export default class Scraper {
     return this
   }
 
-  _query(key, params, save) {
+  _query(key, params, save, throwError) {
     const def = this.definitions[key]
     const id = queryId(key, params)
     let pendingQuery = this.pendingQueries[id]
@@ -107,10 +107,10 @@ export default class Scraper {
 
           return value
         } catch (e) {
-          if (immediate) {
-            // should log this
-          } else {
+          if (throwError) {
             throw e
+          } else {
+            // log this one
           }
         } finally {
           this.pendingQueries[id] = null
@@ -151,13 +151,13 @@ export default class Scraper {
 
       if (cachedValue) {
         // refresh if needed
-        if (needsRefresh) this._query(key, params, true)
+        if (needsRefresh) this._query(key, params, true, false)
         return cachedValue
       }
     }
 
     // get or create query
-    const pendingQuery = this._query(key, params, cache)
+    const pendingQuery = this._query(key, params, cache, !immediate)
 
     // if immediate return null else await promise resolution
     return immediate ? null : await pendingQuery

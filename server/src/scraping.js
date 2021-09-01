@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 import Scraper, { DataError } from './lib/scraper.js'
 
-const scraper = new Scraper('api')
+const scraper = new Scraper()
 
 async function steamSearchGames(term) {
   term = term.trim()
