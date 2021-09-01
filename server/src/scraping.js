@@ -94,7 +94,7 @@ scraper.define('steam-wishlist', { cache: 60 }, async ([vanityUrl]) => {
 
 scraper.define(
   'steamdb-price-history',
-  { cache: 3600 * 24 * 7 },
+  { cache: true, expires: false, refresh: 24 * 3600 },
   async ([appId]) => {
     const headers = {
       'accept-language': 'en-US;q=0.9,en;q=0.8',

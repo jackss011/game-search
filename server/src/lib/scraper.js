@@ -21,17 +21,28 @@ export default class Scraper {
     })()
   }
 
-  getCachedQuery(key, params, lifetime) {
+  getCachedQuery(key, params, expires, refresh) {
     const id = queryId(key, params)
     const cachedQuery = this.savedQueries[id]
+    const now = Date.now()
 
-    if (cachedQuery && Date.now() - cachedQuery.timestamp <= lifetime * 1000) {
-      this.stats[key].hits += 1
-      return cachedQuery.value
-    } else {
-      this.stats[key].miss += 1
-      return null
+    if (cachedQuery) {
+      const isExpired =
+        expires !== false &&
+        typeof expires === 'number' &&
+        isDead(cachedQuery.timestamp, expires, now)
+
+      const needsRefresh =
+        refresh && isDead(cachedQuery.timestamp, refresh, now)
+
+      if (!isExpired) {
+        this.stats[key].hits += 1
+        return [cachedQuery.value, needsRefresh]
+      }
     }
+
+    this.stats[key].miss += 1
+    return [null, false]
   }
 
   saveCachedQuery(key, params, value) {
@@ -52,8 +63,21 @@ export default class Scraper {
       throw new TypeError('Invalid scraper definition')
     }
 
-    this.stats[key] = { hits: 0, miss: 0 }
+    // validate options
+    if (options.cache) {
+      if (options.expires === true) {
+        throw new TypeError('expires cannot be true')
+      }
 
+      // if((typeof options.expires))
+    }
+
+    this.stats[key] = {
+      hits: 0,
+      miss: 0,
+    }
+
+    // create definition
     this.definitions[key] = {
       key,
       options,
@@ -63,36 +87,21 @@ export default class Scraper {
     return this
   }
 
-  async perform(key, params, immediate) {
-    await this.initalized
-
+  _query(key, params, save) {
     const def = this.definitions[key]
-
-    if (!def) {
-      throw new Error('Unkown key = ' + key)
-    }
-
-    const { cache } = def.options
-
-    // retrieve from cache
-    if (cache) {
-      const cachedValue = this.getCachedQuery(key, params, cache)
-      if (cachedValue) return cachedValue
-    }
-
-    // check if has pending promise with same query (ley + params)
     const id = queryId(key, params)
     let pendingQuery = this.pendingQueries[id]
 
     // if does not have pending promise create one
     if (!pendingQuery) {
+      // call this function to perform the query
       const retrievePromise = async () => {
         // scrape actual value
         try {
           const value = await def.callback(params)
 
           // save to cache
-          if (cache) {
+          if (save) {
             this.saveCachedQuery(key, params, value)
           }
 
@@ -111,6 +120,45 @@ export default class Scraper {
       this.pendingQueries[id] = pendingQuery = retrievePromise(id)
     }
 
+    return pendingQuery
+  }
+
+  async perform(key, params, immediate) {
+    await this.initalized
+
+    // get definition
+    const def = this.definitions[key]
+
+    if (!def) {
+      throw new Error('Unkown key = ' + key)
+    }
+
+    // parse option
+    let { cache, expires, refresh } = def.options
+
+    if (typeof cache === 'number') {
+      expires = cache
+    }
+
+    // try to retrieve from cache
+    if (cache) {
+      const [cachedValue, needsRefresh] = this.getCachedQuery(
+        key,
+        params,
+        expires,
+        refresh
+      )
+
+      if (cachedValue) {
+        // refresh if needed
+        if (needsRefresh) this._query(key, params, true)
+        return cachedValue
+      }
+    }
+
+    // get or create query
+    const pendingQuery = this._query(key, params, cache)
+
     // if immediate return null else await promise resolution
     return immediate ? null : await pendingQuery
   }
@@ -120,6 +168,20 @@ export default class Scraper {
 
     console.log('scraper stats', this.stats)
   }
+}
+
+function isDead(timestamp, lifetime, now) {
+  if (!now) now = Date.now()
+
+  if (
+    typeof timestamp !== 'number' ||
+    typeof lifetime !== 'number' ||
+    typeof now !== 'number'
+  ) {
+    throw new TypeError('Invalid parameters')
+  }
+
+  return now - timestamp > lifetime * 1000
 }
 
 function queryId(key, params) {

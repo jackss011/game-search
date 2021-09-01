@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src"
+    "start": "cross-env NODE_ENV=production node ./src",
+    "dev": "cross-env NODE_ENV=development nodemon ./src"
   },
   "author": "Giacomo Agnetti",
   "license": "ISC",
@@ -15,5 +16,9 @@
     "lowdb": "^2.1.0",
     "node-fetch": "^2.6.1"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12"
+  }
 }
