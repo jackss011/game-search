@@ -1,21 +1,22 @@
-import scraper from './scraping.js'
+import {
+  SteamWishlist,
+  SteamDbPriceHistory,
+  IgGameSearch,
+  scraper,
+} from './scraping'
 
 export async function wishlist(vanityUrl: string) {
-  const wishlist = (await scraper.perform('steam-wishlist', [
-    vanityUrl,
-  ])) as any[]
+  const wishlist = (await SteamWishlist.perform([vanityUrl])) as any[]
 
   const igPromises = wishlist.map(item => {
-    return scraper.perform('ig-game-search', [item.name])
+    return IgGameSearch.perform([item.name])
   })
 
   const dbPromises = wishlist.map(item => {
-    return scraper
-      .perform('steamdb-price-history', [item.appId], true)
-      .catch(e => {
-        console.error('Cannot get steamdb info for', item.appId)
-        return 'error'
-      })
+    return SteamDbPriceHistory.perform([item.appId], true).catch(e => {
+      console.error('Cannot get steamdb info for', item.appId)
+      return 'error'
+    })
   })
 
   const igResults = (await Promise.all(igPromises)).map(list =>
@@ -35,5 +36,5 @@ export async function wishlist(vanityUrl: string) {
 }
 
 export async function priceHistory(appId: string) {
-  return await scraper.perform('steamdb-price-history', [appId])
+  return await SteamDbPriceHistory.perform([appId])
 }

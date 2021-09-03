@@ -2,7 +2,6 @@
   "name": "game-search-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./src",
     "dev": "cross-env NODE_ENV=development nodemon ./src/app.ts --ignore *.db.json"
@@ -13,8 +12,9 @@
     "cheerio": "^1.0.0-rc.10",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "lowdb": "^2.1.0",
-    "node-fetch": "^3.0.0"
+    "lowdb": "^2.0.0",
+    "node-fetch": "^2.0.0",
+    "steno": "^2.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",

@@ -3,7 +3,7 @@ import cors from 'cors'
 import morgan from 'morgan'
 import dotenv from 'dotenv'
 import path from 'path'
-import router from './routes.js'
+import router from './routes'
 
 const app = express()
 

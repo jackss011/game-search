@@ -1,4 +1,6 @@
-import { Low, JSONFile } from 'lowdb'
+// import { Low, JSONFile } from 'lowdb'
+// import { Writer } from 'steno'
+import Db from './db'
 
 export type Options = Partial<{
   cache: boolean | number
@@ -18,24 +20,31 @@ type SavedData = {
 
 type Callback = (params: any[]) => Promise<any>
 
+interface Query<R> {
+  key: string
+  options: Options
+  perform: (params: any[], immediate?: boolean) => Promise<R>
+  // performImmediate: <R>(params: any[]) => R | null
+}
+
 export default class Scraper {
-  private readonly db: Low<SavedData>
   private readonly definitions: Record<string, Def> = {}
-  readonly stats: Record<string, { hits: number; miss: number }> = {}
   private readonly pendingQueries: Record<string, Promise<unknown> | null> = {}
-  private savedQueries: Record<string, any> = {}
 
+  readonly stats: Record<string, { hits: number; miss: number }> = {}
   private readonly initalized: Promise<void>
+  private readonly db: Db<SavedData>
 
-  constructor(readonly dbName: string) {
-    this.db = new Low(new JSONFile(`./${dbName}-scraper.db.json`))
+  constructor(readonly dbName: string = 'default') {
+    this.db = new Db(`./${dbName}-scraper.db.json`)
+    // this.writer = new Writer(this.dbFilename)
 
     const doInit = async () => {
       await this.db.read()
-      if (!this.db.data) this.db.data = { queries: {} }
-      this.savedQueries = this.db.data.queries
 
-      const keys = Object.keys(this.savedQueries).filter(k =>
+      if (!this.db.data) this.db.data = { queries: {} }
+
+      const keys = Object.keys(this.db.data.queries).filter(k =>
         k.includes('steamdb')
       )
 
@@ -52,7 +61,7 @@ export default class Scraper {
     refresh?: number
   ) {
     const id = queryId(key, params)
-    const cachedQuery = this.savedQueries[id]
+    const cachedQuery = this.db.data!.queries[id]
     const now = Date.now()
 
     if (cachedQuery) {
@@ -77,13 +86,13 @@ export default class Scraper {
   saveCachedQuery(key: string, params: any[], value: any) {
     const id = queryId(key, params)
 
-    this.savedQueries[id] = {
+    this.db.data!.queries[id] = {
       timestamp: Date.now(),
       value,
     }
   }
 
-  define(key: string, options: Options, callback: Callback) {
+  define<R>(key: string, options: Options, callback: Callback): Query<R> {
     if (this.definitions[key]) {
       throw new Error('Duplicate key = ' + key)
     }
@@ -113,7 +122,13 @@ export default class Scraper {
       callback,
     }
 
-    return this
+    return {
+      key,
+      options: { ...options },
+      perform: async (params: any[], immediate: boolean = false) =>
+        (await this.perform(key, params, immediate)) as R,
+      // performImmediate: <R>(params: any[]) => await this.perform(key, params)
+    }
   }
 
   _query(key: string, params: any[], save: boolean, throwError: boolean) {
@@ -193,6 +208,7 @@ export default class Scraper {
   }
 
   save() {
+    // this.writer.write(JSON.stringify(this.data))
     this.db.write()
 
     console.log('scraper stats', this.stats)
