@@ -2,9 +2,9 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 import Scraper, { DataError } from './lib/scraper.js'
 
-const scraper = new Scraper()
+const scraper = new Scraper('api')
 
-async function steamSearchGames(term) {
+async function steamSearchGames(term: string) {
   term = term.trim()
 
   const url = `https://store.steampowered.com/search/?term=${encodeURIComponent(
@@ -27,10 +27,10 @@ async function steamSearchGames(term) {
   return results
 }
 
-async function steamAppDetails(appId) {
+async function steamAppDetails(appId: string) {
   const url = `https://store.steampowered.com/api/appdetails?appids=${appId}`
 
-  const json = await fetch(url).then(r => r.json())
+  const json = (await fetch(url).then(r => r.json())) as any
   const appDetails = json?.[appId]?.['data']
 
   if (!appDetails) throw new DataError('Cannot get app details')
@@ -52,10 +52,10 @@ scraper.define('steam-wishlist', { cache: 60 }, async ([vanityUrl]) => {
 
   let page = 0
   let done = false
-  let result = []
+  let result: any[] = []
 
-  const extractData = json =>
-    Object.entries(json).map(([appId, data]) => {
+  const extractData = (json: any) =>
+    Object.entries(json).map(([appId, data]: [string, any]) => {
       const sub0 = data['subs']?.[0]
 
       return {
@@ -75,9 +75,9 @@ scraper.define('steam-wishlist', { cache: 60 }, async ([vanityUrl]) => {
 
   while (!done) {
     const url = baseUrl + `/?p=${page}`
-    const json = await await fetch(url).then(r => r.json())
+    const json = (await await fetch(url).then(r => r.json())) as any
 
-    if (json.success) throw DataError('Steam: failed wishlist fetch')
+    if (json.success) throw new DataError('Steam: failed wishlist fetch')
 
     const pageData = extractData(json)
     result = result.concat(pageData)
@@ -117,11 +117,11 @@ scraper.define(
     // process.exit(1)
     if (page.status === 429) throw new Error('SteamDB: too many requests')
 
-    const json = await page.json()
+    const json = (await page.json()) as any
 
     if (json.success === false) throw new DataError('SteamDB: wrong prices url')
 
-    const priceHistory = json?.data?.history
+    const priceHistory = json?.data?.history as any[]
     if (!priceHistory) throw new DataError('SteamDB: wrong prices json format')
 
     return priceHistory.map(p => ({ time: p.x, price: p.y, discount: p.d }))

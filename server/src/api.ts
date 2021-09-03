@@ -1,7 +1,9 @@
 import scraper from './scraping.js'
 
-export async function wishlist(vanityUrl) {
-  const wishlist = await scraper.perform('steam-wishlist', [vanityUrl])
+export async function wishlist(vanityUrl: string) {
+  const wishlist = (await scraper.perform('steam-wishlist', [
+    vanityUrl,
+  ])) as any[]
 
   const igPromises = wishlist.map(item => {
     return scraper.perform('ig-game-search', [item.name])
@@ -17,7 +19,10 @@ export async function wishlist(vanityUrl) {
   })
 
   const igResults = (await Promise.all(igPromises)).map(list =>
-    list.filter(({ dlc, platform }) => !dlc && platform === 'steam')
+    list.filter(
+      ({ dlc, platform }: { dlc: boolean; platform: string }) =>
+        !dlc && platform === 'steam'
+    )
   )
 
   const dbResults = await Promise.all(dbPromises)
@@ -29,6 +34,6 @@ export async function wishlist(vanityUrl) {
   })
 }
 
-export async function history(appId) {
+export async function priceHistory(appId: string) {
   return await scraper.perform('steamdb-price-history', [appId])
 }

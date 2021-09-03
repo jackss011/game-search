@@ -1,16 +1,38 @@
 import { Low, JSONFile } from 'lowdb'
 
+export type Options = Partial<{
+  cache: boolean | number
+  expires: false | number
+  refresh: number
+}>
+
+export type Def = {
+  key: string
+  callback: Callback
+  options: Options
+}
+
+type SavedData = {
+  queries: Record<string, any>
+}
+
+type Callback = (params: any[]) => Promise<any>
+
 export default class Scraper {
-  constructor(dbName) {
+  private readonly db: Low<SavedData>
+  private readonly definitions: Record<string, Def> = {}
+  readonly stats: Record<string, { hits: number; miss: number }> = {}
+  private readonly pendingQueries: Record<string, Promise<unknown> | null> = {}
+  private savedQueries: Record<string, any> = {}
+
+  private readonly initalized: Promise<void>
+
+  constructor(readonly dbName: string) {
     this.db = new Low(new JSONFile(`./${dbName}-scraper.db.json`))
-    this.definitions = {}
-    this.stats = {}
 
-    this.pendingQueries = {}
-
-    this.initalized = (async () => {
+    const doInit = async () => {
       await this.db.read()
-      if (!this.db.data) this.db.data = { queries: {}, limit: {} }
+      if (!this.db.data) this.db.data = { queries: {} }
       this.savedQueries = this.db.data.queries
 
       const keys = Object.keys(this.savedQueries).filter(k =>
@@ -18,10 +40,17 @@ export default class Scraper {
       )
 
       console.log('cached steamdb price history count:', keys.length)
-    })()
+    }
+
+    this.initalized = doInit()
   }
 
-  getCachedQuery(key, params, expires, refresh) {
+  getCachedQuery(
+    key: string,
+    params: any[],
+    expires?: number | false,
+    refresh?: number
+  ) {
     const id = queryId(key, params)
     const cachedQuery = this.savedQueries[id]
     const now = Date.now()
@@ -45,7 +74,7 @@ export default class Scraper {
     return [null, false]
   }
 
-  saveCachedQuery(key, params, value) {
+  saveCachedQuery(key: string, params: any[], value: any) {
     const id = queryId(key, params)
 
     this.savedQueries[id] = {
@@ -54,7 +83,7 @@ export default class Scraper {
     }
   }
 
-  define(key, options, callback) {
+  define(key: string, options: Options, callback: Callback) {
     if (this.definitions[key]) {
       throw new Error('Duplicate key = ' + key)
     }
@@ -64,13 +93,13 @@ export default class Scraper {
     }
 
     // validate options
-    if (options.cache) {
-      if (options.expires === true) {
-        throw new TypeError('expires cannot be true')
-      }
+    // if (options.cache) {
+    //   if (options.expires === true) {
+    //     throw new TypeError('expires cannot be true')
+    //   }
 
-      // if((typeof options.expires))
-    }
+    //   // if((typeof options.expires))
+    // }
 
     this.stats[key] = {
       hits: 0,
@@ -87,7 +116,7 @@ export default class Scraper {
     return this
   }
 
-  _query(key, params, save, throwError) {
+  _query(key: string, params: any[], save: boolean, throwError: boolean) {
     const def = this.definitions[key]
     const id = queryId(key, params)
     let pendingQuery = this.pendingQueries[id]
@@ -117,13 +146,13 @@ export default class Scraper {
         }
       }
 
-      this.pendingQueries[id] = pendingQuery = retrievePromise(id)
+      this.pendingQueries[id] = pendingQuery = retrievePromise()
     }
 
     return pendingQuery
   }
 
-  async perform(key, params, immediate) {
+  async perform(key: string, params: any[], immediate: boolean = false) {
     await this.initalized
 
     // get definition
@@ -157,7 +186,7 @@ export default class Scraper {
     }
 
     // get or create query
-    const pendingQuery = this._query(key, params, cache, !immediate)
+    const pendingQuery = this._query(key, params, cache as any, !immediate)
 
     // if immediate return null else await promise resolution
     return immediate ? null : await pendingQuery
@@ -170,34 +199,25 @@ export default class Scraper {
   }
 }
 
-function isDead(timestamp, lifetime, now) {
+function isDead(timestamp: number, lifetime: number, now?: number) {
   if (!now) now = Date.now()
-
-  if (
-    typeof timestamp !== 'number' ||
-    typeof lifetime !== 'number' ||
-    typeof now !== 'number'
-  ) {
-    throw new TypeError('Invalid parameters')
-  }
 
   return now - timestamp > lifetime * 1000
 }
 
-function queryId(key, params) {
+function queryId(key: string, params: any[]) {
   return 'query__' + key + '__params__' + params.map(p => String(p)).join('__')
 }
 
 export class FetchError extends Error {
-  constructor(message, original) {
+  constructor(message: string, public original: Error) {
     super(message || 'Scraper: error during fetch operation')
-    this.original = original
     this.name = 'FetchError'
   }
 }
 
 export class DataError extends Error {
-  constructor(message) {
+  constructor(message: string) {
     super(message || 'Scraper: unexpected data from fetch')
     this.name = 'DataError'
   }
