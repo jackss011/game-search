@@ -17,7 +17,11 @@ export default class Db<T> {
 
   async write() {
     if (this.data) {
-      await fs.promises.writeFile(this.filename, JSON.stringify(this.data))
+      const spacer = process.env.NODE_ENV === 'development' ? 2 : undefined
+      await fs.promises.writeFile(
+        this.filename,
+        JSON.stringify(this.data, null, spacer)
+      )
       return true
     } else {
       return false
