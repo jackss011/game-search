@@ -2,39 +2,56 @@
 // import { Writer } from 'steno'
 import Db from './db'
 
+// Scraper query options
 export type Options = Partial<{
   cache: boolean | number
   expires: false | number
   refresh: number
 }>
 
+// Scraper permorm scaping function
+type Callback = (params: any[]) => Promise<any>
+
+// Scraper query definition
 export type Def = {
   key: string
   callback: Callback
   options: Options
 }
 
-type SavedData = {
-  queries: Record<string, any>
-}
-
-type Callback = (params: any[]) => Promise<any>
-
+// used to perfirm a query
 interface Query<R> {
   key: string
   options: Options
   perform: (params: any[], immediate?: boolean) => Promise<R>
-  // performImmediate: <R>(params: any[]) => R | null
 }
 
-export default class Scraper {
-  private readonly definitions: Record<string, Def> = {}
-  private readonly pendingQueries: Record<string, Promise<unknown> | null> = {}
+type SavedData = {
+  queries: Record<string, any>
+}
 
+/**
+ *
+ */
+export default class Scraper {
+  /**  */
+  private readonly definitions: Record<string, Def> = {}
+  /** */
+  private readonly pendingQueryPromises: Record<
+    string,
+    Promise<unknown> | null
+  > = {}
+
+  /** hit/miss statics divided by key */
   readonly stats: Record<string, { hits: number; miss: number }> = {}
+  /** use await on this promise to wait for data read */
   private readonly initalized: Promise<void>
+  /** local json file db instance, used to cache query results */
   private readonly db: Db<SavedData>
 
+  /**
+   * Create a scraper instance
+   * @param dbName used to determine file name as such: `<dbName>.db.json`   */
   constructor(readonly dbName: string = 'default') {
     this.db = new Db(`./${dbName}-scraper.db.json`)
     // this.writer = new Writer(this.dbFilename)
@@ -54,7 +71,15 @@ export default class Scraper {
     this.initalized = doInit()
   }
 
-  getCachedQuery(
+  /**
+   * Retrieve last query result
+   * @param key
+   * @param params
+   * @param expires
+   * @param refresh
+   * @returns
+   */
+  #getCachedQuery(
     key: string,
     params: any[],
     expires?: number | false,
@@ -83,7 +108,13 @@ export default class Scraper {
     return [null, false]
   }
 
-  saveCachedQuery(key: string, params: any[], value: any) {
+  /**
+   *
+   * @param key
+   * @param params
+   * @param value
+   */
+  #saveCachedQuery(key: string, params: any[], value: any) {
     const id = queryId(key, params)
 
     this.db.data!.queries[id] = {
@@ -92,49 +123,18 @@ export default class Scraper {
     }
   }
 
-  define<R>(key: string, options: Options, callback: Callback): Query<R> {
-    if (this.definitions[key]) {
-      throw new Error('Duplicate key = ' + key)
-    }
-
-    if (typeof options !== 'object' || typeof callback !== 'function') {
-      throw new TypeError('Invalid scraper definition')
-    }
-
-    // validate options
-    // if (options.cache) {
-    //   if (options.expires === true) {
-    //     throw new TypeError('expires cannot be true')
-    //   }
-
-    //   // if((typeof options.expires))
-    // }
-
-    this.stats[key] = {
-      hits: 0,
-      miss: 0,
-    }
-
-    // create definition
-    this.definitions[key] = {
-      key,
-      options,
-      callback,
-    }
-
-    return {
-      key,
-      options: { ...options },
-      perform: async (params: any[], immediate: boolean = false) =>
-        (await this.perform(key, params, immediate)) as R,
-      // performImmediate: <R>(params: any[]) => await this.perform(key, params)
-    }
-  }
-
-  _query(key: string, params: any[], save: boolean, throwError: boolean) {
+  /**
+   *
+   * @param key
+   * @param params
+   * @param save
+   * @param throwError
+   * @returns
+   */
+  #query(key: string, params: any[], save: boolean, throwError: boolean) {
     const def = this.definitions[key]
     const id = queryId(key, params)
-    let pendingQuery = this.pendingQueries[id]
+    let pendingQuery = this.pendingQueryPromises[id]
 
     // if does not have pending promise create one
     if (!pendingQuery) {
@@ -146,7 +146,7 @@ export default class Scraper {
 
           // save to cache
           if (save) {
-            this.saveCachedQuery(key, params, value)
+            this.#saveCachedQuery(key, params, value)
           }
 
           return value
@@ -157,17 +157,24 @@ export default class Scraper {
             // log this one
           }
         } finally {
-          this.pendingQueries[id] = null
+          this.pendingQueryPromises[id] = null
         }
       }
 
-      this.pendingQueries[id] = pendingQuery = retrievePromise()
+      this.pendingQueryPromises[id] = pendingQuery = retrievePromise()
     }
 
     return pendingQuery
   }
 
-  async perform(key: string, params: any[], immediate: boolean = false) {
+  /**
+   *
+   * @param key
+   * @param params
+   * @param immediate
+   * @returns
+   */
+  async #perform(key: string, params: any[], immediate: boolean = false) {
     await this.initalized
 
     // get definition
@@ -186,7 +193,7 @@ export default class Scraper {
 
     // try to retrieve from cache
     if (cache) {
-      const [cachedValue, needsRefresh] = this.getCachedQuery(
+      const [cachedValue, needsRefresh] = this.#getCachedQuery(
         key,
         params,
         expires,
@@ -195,18 +202,58 @@ export default class Scraper {
 
       if (cachedValue) {
         // refresh if needed
-        if (needsRefresh) this._query(key, params, true, false)
+        if (needsRefresh) this.#query(key, params, true, false)
         return cachedValue
       }
     }
 
     // get or create query
-    const pendingQuery = this._query(key, params, cache as any, !immediate)
+    const pendingQuery = this.#query(key, params, cache as any, !immediate)
 
     // if immediate return null else await promise resolution
     return immediate ? null : await pendingQuery
   }
 
+  /**
+   *
+   * @param key
+   * @param options
+   * @param callback
+   * @returns
+   */
+  define<R>(key: string, options: Options, callback: Callback): Query<R> {
+    if (this.definitions[key]) {
+      throw new Error('Duplicate key = ' + key)
+    }
+
+    if (typeof options !== 'object' || typeof callback !== 'function') {
+      throw new TypeError('Invalid scraper definition')
+    }
+
+    this.stats[key] = {
+      hits: 0,
+      miss: 0,
+    }
+
+    // create definition
+    this.definitions[key] = {
+      key,
+      options,
+      callback,
+    }
+
+    return {
+      key,
+      options: { ...options },
+      perform: async (params: any[], immediate: boolean = false) =>
+        (await this.#perform(key, params, immediate)) as R,
+      // performImmediate: <R>(params: any[]) => await this.perform(key, params)
+    }
+  }
+
+  /**
+   *
+   */
   save() {
     // this.writer.write(JSON.stringify(this.data))
     this.db.write()
@@ -215,16 +262,32 @@ export default class Scraper {
   }
 }
 
+/**
+ *
+ * @param timestamp
+ * @param lifetime
+ * @param now
+ * @returns
+ */
 function isDead(timestamp: number, lifetime: number, now?: number) {
   if (!now) now = Date.now()
 
   return now - timestamp > lifetime * 1000
 }
 
+/**
+ *
+ * @param key
+ * @param params
+ * @returns
+ */
 function queryId(key: string, params: any[]) {
   return 'query__' + key + '__params__' + params.map(p => String(p)).join('__')
 }
 
+/**
+ *
+ */
 export class FetchError extends Error {
   constructor(message: string, public original: Error) {
     super(message || 'Scraper: error during fetch operation')
@@ -232,6 +295,9 @@ export class FetchError extends Error {
   }
 }
 
+/**
+ *
+ */
 export class DataError extends Error {
   constructor(message: string) {
     super(message || 'Scraper: unexpected data from fetch')
