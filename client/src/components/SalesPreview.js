@@ -1,4 +1,4 @@
-import { toDate, toPrice } from '../utility/conversions'
+import { toDate, toDateFromNow, toPrice } from '../utility/conversions'
 
 const DiscountTag = ({ discount }) => (
   <p className="bg-green-400 text-green-900 font-medium text-xs rounded-md px-1 py-0.5">
@@ -24,7 +24,7 @@ const Discount = ({ price, discount }) => {
 const Tagged = ({ tag, children }) => (
   <div className="flex flex-col items-center">
     {children}
-    <h6 className="mt-0.5 tracking-wider text-pink-300 text-md uppercase">
+    <h6 className="mt-0.5 tracking-wider text-pink-300 text-sm text-center font-medium">
       {tag}
     </h6>
   </div>
@@ -53,7 +53,7 @@ export default function SalesPreview({ priceHistory }) {
   if (!latest) return <p className="text-white opacity-40">No Sales</p>
 
   return (
-    <Tagged tag={toDate(latest.time)}>
+    <Tagged tag={toDateFromNow(latest.time)}>
       <Discount price={latest.price} discount={latest.discount / 100} />
     </Tagged>
   )
