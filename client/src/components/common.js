@@ -1,4 +1,5 @@
 import { toPrice } from '../utility/conversions'
+import { useState } from 'react'
 
 export const SadText = ({ children }) => (
   <p className="text-white opacity-40">{children}</p>
@@ -6,7 +7,7 @@ export const SadText = ({ children }) => (
 
 export const Spinner = ({ className }) => (
   <div
-    className={`${className} m-auto animate-spin bg-white opacity-30 h-16 w-16 rounded-lg`}
+    className={`${className} m-auto animate-spin bg-white opacity-30 rounded-lg`}
   />
 )
 
@@ -53,5 +54,21 @@ export const Tagged = ({ tag, children, className }) => {
         {tag}
       </h6>
     </div>
+  )
+}
+
+export const SeatchBar = ({ onSearch }) => {
+  const [term, setTerm] = useState()
+
+  const onSubmit = event => {
+    event?.preventDefault()
+    onSearch(term)
+  }
+
+  return (
+    <form onSubmit={onSubmit}>
+      <input type="text" value={term} onChange={e => setTerm(e.target.value)} />
+      <input type="submit" value="Go" />
+    </form>
   )
 }

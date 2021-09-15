@@ -21,6 +21,8 @@ export function useJsonFetch(path) {
         setStatus(() => ({ data, pending: false }))
       } catch (e) {
         console.error(e)
+
+        setStatus(() => ({ pending: false, error: true }))
       }
     }
 

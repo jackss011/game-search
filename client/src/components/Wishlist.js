@@ -1,9 +1,9 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useJsonFetch } from '../utility/hooks'
 import IgPreview from './IgPreview'
 import SteamPreview from './SteamPreview'
 import SalesPreview from './SalesPreview'
-import { Spinner } from './common'
+import { SeatchBar, Spinner } from './common'
 
 const PriorityLabel = ({ num }) => (
   <h3 className="text-2xl font text-gray-300 bg-gray-700 rounded-md text-center self-start w-12">
@@ -96,8 +96,8 @@ const WishlistItem = ({
 )
 
 export default function Wishlist() {
-  const user = 'jackss14'
-  const [pending, wishlist] = useJsonFetch(`wishlist/${user}`)
+  const [user, setUser] = useState(null)
+  const [pending, wishlist] = useJsonFetch(user ? `wishlist/${user}` : null)
 
   const renderedWishlistItems = useMemo(
     () =>
@@ -122,8 +122,15 @@ export default function Wishlist() {
   )
 
   return (
-    <ul className="flex flex-col space-y-2">
-      {!pending ? renderedWishlistItems : <Spinner className="mt-16" />}
-    </ul>
+    <div>
+      <SeatchBar onSearch={term => setUser(term)} />
+      <ul className="flex flex-col space-y-2">
+        {!pending ? (
+          renderedWishlistItems
+        ) : (
+          <Spinner className="mt-16 h-16 w-16" />
+        )}
+      </ul>
+    </div>
   )
 }

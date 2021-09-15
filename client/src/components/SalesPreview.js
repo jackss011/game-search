@@ -1,5 +1,5 @@
 import { toDateFromNow } from '../utility/conversions'
-import { Discount, SadText, Tagged } from './common'
+import { Discount, SadText, Spinner, Tagged } from './common'
 
 function salientDiscounts(priceHistory) {
   const discounts = priceHistory.filter(
@@ -19,6 +19,8 @@ function salientDiscounts(priceHistory) {
 }
 
 export default function SalesPreview({ priceHistory }) {
+  if (!priceHistory) return <Spinner className="h-10 w-10 mt-3 mb-1" />
+
   const { latest } = salientDiscounts(priceHistory)
 
   if (!latest) return <SadText>No Sales</SadText>
