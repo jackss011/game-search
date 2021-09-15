@@ -24,7 +24,10 @@ export default function SalesPreview({ priceHistory }) {
   if (!latest) return <SadText>No Sales</SadText>
 
   return (
-    <Tagged tag={toDateFromNow(latest.time)}>
+    <Tagged
+      tag={toDateFromNow(latest.time)}
+      className="text-gray-300 opacity-50 font-medium"
+    >
       <Discount price={latest.price} discount={latest.discount / 100} />
     </Tagged>
   )

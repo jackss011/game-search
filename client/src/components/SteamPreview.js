@@ -1,10 +1,15 @@
-import { Discount, SadText } from './common'
+import { Discount, NewTabLink, SadText } from './common'
 
-const SteamPreview = ({ current, discount }) => {
-  if (current === null || isNaN(current))
-    return <SadText>Not Available</SadText>
-
-  return <Discount price={current} discount={discount} />
+const SteamPreview = ({ current, discount, appId }) => {
+  return (
+    <NewTabLink link={`https://store.steampowered.com/app/${appId}`}>
+      {current === null || isNaN(current) ? (
+        <SadText>Not Available</SadText>
+      ) : (
+        <Discount price={current} discount={discount} />
+      )}
+    </NewTabLink>
+  )
 }
 
 export default SteamPreview

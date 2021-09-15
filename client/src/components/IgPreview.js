@@ -1,4 +1,5 @@
-import { Discount, SadText, Tagged } from './common'
+import { Discount, NewTabLink, SadText, Tagged } from './common'
+import React from 'react'
 
 const normalize = name =>
   name
@@ -33,15 +34,27 @@ function organizeIgResults(steamName, results) {
     })
     .filter(i => i !== null)
 
-  return { exact, variants }
+  return { exact, variants, list: [exact, ...variants] }
 }
+
+const Variant = ({ children, className, link }) => (
+  <div
+    className={`relative p-1 bg-black bg-opacity-10 rounded-lg ${className}`}
+  >
+    <NewTabLink link={link} srHint="Buy on ig">
+      {children}
+    </NewTabLink>
+  </div>
+)
+
+const NUM_VARIANTS = 2
 
 const IgPreview = ({ ig, steamName, steamPrice }) => {
   const notFound = !ig || ig.length <= 0
 
   if (notFound) return <SadText>Not Found</SadText>
 
-  const { exact, variants } = organizeIgResults(steamName, ig)
+  const { exact, variants, list } = organizeIgResults(steamName, ig)
 
   if (!exact && variants.length === 0) return <SadText>Not Found</SadText>
 
@@ -56,18 +69,36 @@ const IgPreview = ({ ig, steamName, steamPrice }) => {
   //     Boolean(exact),
   //     variants.map(v => v.variant)
   //   )
+  //bf33004d
+  const collapsedNumber = list.length - (NUM_VARIANTS + 1)
 
-  let main = null
-
-  if (exact) main = exact
-  else if (variants.length === 1) main = variants[0]
-
-  if (main === null) return <SadText>Too much data</SadText>
+  const renderedVariants = list
+    .slice(0, NUM_VARIANTS + 1)
+    .filter(x => Boolean(x))
+    .map(item => (
+      <React.Fragment key={item.variant || 'default'}>
+        <Variant className="w-32" link={item.buyLink}>
+          <Tagged
+            tag={item.variant}
+            className="text-gray-300 opacity-70 capitalize"
+          >
+            <Discount price={item.price} discount={null} zeroText="N/A" />
+          </Tagged>
+        </Variant>
+      </React.Fragment>
+    ))
 
   return (
-    <Tagged tag={main.variant === ''}>
-      <Discount price={main.price} discount={null} />
-    </Tagged>
+    <div className="flex flex-row space-x-2">
+      {renderedVariants}
+      {collapsedNumber > 0 && (
+        <Variant className="flex flex-row align-center h-full">
+          <p className="text-xl font-medium m-2 opacity-70">
+            +{collapsedNumber}
+          </p>
+        </Variant>
+      )}
+    </div>
   )
 }
 

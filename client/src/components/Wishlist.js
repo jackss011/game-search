@@ -53,6 +53,7 @@ const PreviewContainer = ({ children, title, className }) => (
 
 const WishlistItem = ({
   name,
+  appId,
   priority,
   capsuleUrl,
   currentPrice,
@@ -75,14 +76,18 @@ const WishlistItem = ({
 
     <div className="flex ml-3 flex-row space-x-3 items-start flex-grow">
       <PreviewContainer title="Steam" className="bg-black w-32">
-        <SteamPreview current={currentPrice} discount={currentDiscount} />
+        <SteamPreview
+          current={currentPrice}
+          discount={currentDiscount}
+          appId={appId}
+        />
       </PreviewContainer>
 
       <PreviewContainer title="Sales" className="bg-green-800 w-32">
         <SalesPreview priceHistory={priceHistory} />
       </PreviewContainer>
 
-      <PreviewContainer title="IG" className="bg-yellow-700 flex-grow">
+      <PreviewContainer title="IG" className="bg-red-800 flex-grow">
         <IgPreview ig={ig} steamName={name} />
       </PreviewContainer>
     </div>
@@ -102,6 +107,7 @@ export default function Wishlist() {
           <WishlistItem
             key={item.appId}
             name={item.name}
+            appId={item.appId}
             priority={item.priority}
             capsuleUrl={item.images.capsule}
             currentPrice={item.price}

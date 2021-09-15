@@ -10,19 +10,28 @@ export const Spinner = ({ className }) => (
   />
 )
 
+export const NewTabLink = ({ link, children, srHint }) => (
+  <a className="" href={link} target="_blank" rel="noreferrer">
+    {children}
+    <p className="sr-only">{srHint}</p>
+  </a>
+)
+
 export const DiscountTag = ({ discount }) => (
   <p className="bg-green-400 text-green-900 font-medium text-xs rounded-md px-1 py-0.5">
     {`-${Math.round(discount * 100)}%`}
   </p>
 )
 
-export const Discount = ({ price, discount }) => {
+export const Discount = ({ price, discount, zeroText }) => {
   const original = price / (1 - discount)
   const hasDiscount = discount > 0
 
   return (
     <div className="flex flex-col items-center text-white">
-      <p className="text-4xl">{toPrice(price)}</p>
+      <p className="text-4xl">
+        {zeroText && price === 0 ? zeroText : toPrice(price)}
+      </p>
 
       {hasDiscount && (
         <div className="flex flex-row justify-between items-center space-x-2">
@@ -40,7 +49,7 @@ export const Tagged = ({ tag, children, className }) => {
   return (
     <div className="flex flex-col items-center">
       {children}
-      <h6 className="mt-0.5 tracking-wider text-pink-300 text-sm text-center font-medium">
+      <h6 className={`mt-0.5 tracking-wider text-sm text-center ${className}`}>
         {tag}
       </h6>
     </div>
