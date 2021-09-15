@@ -3,6 +3,8 @@ import {
   SteamDbPriceHistory,
   IgGameSearch,
   scraper,
+  SteamSearchGames,
+  SteamAppDetails,
 } from './scraping'
 
 export async function wishlist(vanityUrl: string) {
@@ -37,4 +39,17 @@ export async function wishlist(vanityUrl: string) {
 
 export async function priceHistory(appId: string) {
   return await SteamDbPriceHistory.perform([appId])
+}
+
+export async function steamSearchGames(term: string) {
+  return await SteamSearchGames.perform([term])
+}
+
+export async function steamGameDetails(appId: string) {
+  const appDetails = (await SteamAppDetails.perform([appId])) as any
+  const ig = await IgGameSearch.perform([appDetails.name])
+
+  const priceHistory = await SteamDbPriceHistory.perform([appId])
+
+  return { ...appDetails, ig, priceHistory }
 }

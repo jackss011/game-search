@@ -5,48 +5,57 @@ import Scraper, { DataError } from './lib/scraper'
 
 export const scraper = new Scraper('api')
 
-async function steamSearchGames(term: string) {
-  term = term.trim()
+export const SteamSearchGames = scraper.define<any>(
+  'steam-search-games',
+  { cache: 3600 },
+  async ([term]) => {
+    term = term.trim()
 
-  const url = `https://store.steampowered.com/search/?term=${encodeURIComponent(
-    term
-  )}&ignore_preferences=1`
+    const url = `https://store.steampowered.com/search/?term=${encodeURIComponent(
+      term
+    )}&ignore_preferences=1`
 
-  const text = await fetch(url).then(r => r.text())
-  const $ = cheerio.load(text)
+    const text = await fetch(url).then(r => r.text())
+    const $ = cheerio.load(text)
 
-  const results = $('#search_resultsRows > a')
-    .toArray()
-    .map(r => {
-      const appId = r.attribs['data-ds-appid']
-      const bundleId = r.attribs['data-ds-bundleid']
-      const name = $(r).find('.title').text()
+    const results = $('#search_resultsRows > a')
+      .toArray()
+      .map(r => {
+        const appId = r.attribs['data-ds-appid']
+        const bundleId = r.attribs['data-ds-bundleid']
+        const name = $(r).find('.title').text()
 
-      return { appId, bundleId, name }
-    })
+        return { appId, bundleId, name }
+      })
 
-  return results
-}
-
-async function steamAppDetails(appId: string) {
-  const url = `https://store.steampowered.com/api/appdetails?appids=${appId}`
-
-  const json = (await fetch(url).then(r => r.json())) as any
-  const appDetails = json?.[appId]?.['data']
-
-  if (!appDetails) throw new DataError('Cannot get app details')
-
-  // console.log(appDetails)
-
-  const result = {
-    appId,
-    name: appDetails['name'],
-    price: appDetails['price_overview']['final'] / 100,
-    discount: appDetails['price_overview']['discount_percent'] / 100,
+    return results
   }
+)
 
-  return result
-}
+export const SteamAppDetails = scraper.define(
+  'steam-game-details',
+  { cache: 3600 },
+  async ([appId]) => {
+    const url = `https://store.steampowered.com/api/appdetails?appids=${appId}`
+
+    const json = (await fetch(url).then(r => r.json())) as any
+    const appDetails = json?.[appId]?.['data']
+
+    if (!appDetails) throw new DataError('Cannot get app details')
+
+    // console.log(appDetails.header_image)
+
+    const result = {
+      appId,
+      name: appDetails['name'],
+      price: appDetails['price_overview']['final'] / 100,
+      discount: appDetails['price_overview']['discount_percent'] / 100,
+      capsule: appDetails['header_image'],
+    }
+
+    return result
+  }
+)
 
 export const SteamWishlist = scraper.define<any>(
   'steam-wishlist',

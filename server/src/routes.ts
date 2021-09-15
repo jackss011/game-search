@@ -23,4 +23,26 @@ router.get('/history/:appId', async (req, res) => {
   }
 })
 
+router.get('/search', async (req, res) => {
+  try {
+    const term = 'Neon Abyss'
+
+    const results = await api.steamSearchGames(term)
+    res.json({ results })
+  } catch (e) {
+    res.sendStatus(500)
+    console.error(e)
+  }
+})
+
+router.get('/game/:appId', async (req, res) => {
+  try {
+    const results = await api.steamGameDetails(req.params.appId)
+    res.json({ results })
+  } catch (e) {
+    res.sendStatus(500)
+    console.error(e)
+  }
+})
+
 export default router
