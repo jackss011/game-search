@@ -3,7 +3,7 @@ import { useJsonFetch } from '../utility/hooks'
 import IgPreview from './IgPreview'
 import SteamPreview from './SteamPreview'
 import SalesPreview from './SalesPreview'
-import { SearchBar, Spinner } from './common'
+import { SearchBar, Spinner, Tag } from './common'
 
 const PriorityLabel = ({ num }) => (
   <h3 className="text-2xl font text-gray-300 bg-gray-700 rounded-md text-center self-start w-12">
@@ -11,21 +11,21 @@ const PriorityLabel = ({ num }) => (
   </h3>
 )
 
-const Capsule = ({ src }) => (
-  <div className="object-fill rounded-lg overflow-hidden ml-2 flex-shrink-0">
+const Capsule = ({ src, prerelease, earlyAccess }) => (
+  <div className="object-fill rounded-lg overflow-hidden ml-2 flex-shrink-0 relative">
     <img src={src} alt="thumbnail" />
+    <div className="flex flex-row space-x-2 absolute bottom-0 right-0 p-2">
+      {earlyAccess && (
+        <Tag className="bg-gray-800 text-blue-300">Early Access</Tag>
+      )}
+      {prerelease && (
+        <Tag className="bg-gray-800 text-yellow-300">Prerelease</Tag>
+      )}
+    </div>
   </div>
 )
 
 // const Title = ({ name }) => <h2 className="text-gray-300 text-xl">{name}</h2>
-
-// const Tag = ({ className, children }) => (
-//   <div
-//     className={`${className} rounded-full py-0.5 px-2 text-xs text-white font-medium tracking-wider bg-opacity-70`}
-//   >
-//     {children}
-//   </div>
-// )
 
 // const TitleWithTags = ({ name, prerelease, earlyAccess }) => (
 //   <div className="flex flex-row space-x-4 items-center">
@@ -65,7 +65,11 @@ const WishlistItem = ({
 }) => (
   <li className="flex flex-row p-2 bg-gray-800 rounded-md shadow-lg flex-shrink-0">
     <PriorityLabel num={priority} />
-    <Capsule src={capsuleUrl} />
+    <Capsule
+      src={capsuleUrl}
+      earlyAccess={earlyAccess}
+      prerelease={prerelease}
+    />
 
     {/* <div className="flex flex-col ml-3 items-start"> */}
     {/* <TitleWithTags

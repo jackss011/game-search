@@ -10,3 +10,8 @@ input[type='submit'] {
 input[type='submit'] {
   @apply px-4;
 }
+
+:root {
+  font-family: Inter, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}

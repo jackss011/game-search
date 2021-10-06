@@ -74,3 +74,11 @@ export const SearchBar = ({ value, onSearch }) => {
     </form>
   )
 }
+
+export const Tag = ({ className, children }) => (
+  <div
+    className={`${className} rounded-full py-0.5 px-2 text-xs font-medium tracking-wider bg-opacity-90 shadow-md`}
+  >
+    {children}
+  </div>
+)
