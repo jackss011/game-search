@@ -1,14 +1,35 @@
 import { Discount, NewTabLink, SadText, Tagged } from './common'
 import React from 'react'
 
-const normalize = name =>
-  name
+const romanNumbers = ['i', 'ii', 'iii', 'iv', 'v']
+// const romanNumbersReplacer = romanNumbers.map(r => new RegExp(`${r}`))
+
+function replaceRomanNumbers(text) {
+  let splits = text.split(' ')
+
+  splits = splits.map(s => {
+    const index = romanNumbers.findIndex(roman => roman === s)
+    return index >= 0 ? index + 1 : s
+  })
+
+  return splits.join(' ')
+}
+
+const normalize = name => {
+  let res = name
     // eslint-disable-next-line no-useless-escape
     .replaceAll(/[^\w\s]/g, '')
     .toLowerCase()
     .split(/\s/)
     .filter(s => s.length > 0)
     .join(' ')
+
+  return replaceRomanNumbers(res)
+}
+
+function isSequel(variant) {
+  return !isNaN(Number(variant.split(' ')[0]))
+}
 
 //
 function organizeIgResults(steamName, results) {
@@ -25,7 +46,7 @@ function organizeIgResults(steamName, results) {
 
         if (variant.length === 0) console.error('Variant error for', steamName)
 
-        if (isNaN(Number(variant))) {
+        if (!isSequel(variant)) {
           return { name, ...others, variant }
         }
       }
