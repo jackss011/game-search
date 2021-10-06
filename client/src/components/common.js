@@ -1,5 +1,5 @@
 import { toPrice } from '../utility/conversions'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 export const SadText = ({ children }) => (
   <p className="text-white opacity-40">{children}</p>
@@ -57,8 +57,10 @@ export const Tagged = ({ tag, children, className }) => {
   )
 }
 
-export const SearchBar = ({ onSearch }) => {
-  const [term, setTerm] = useState()
+export const SearchBar = ({ value, onSearch }) => {
+  const [term, setTerm] = useState(value)
+
+  useMemo(() => setTerm(value), [value])
 
   const onSubmit = event => {
     event?.preventDefault()
@@ -66,7 +68,7 @@ export const SearchBar = ({ onSearch }) => {
   }
 
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} className="flex flex-row space-x-2">
       <input type="text" value={term} onChange={e => setTerm(e.target.value)} />
       <input type="submit" value="Go" />
     </form>

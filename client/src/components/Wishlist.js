@@ -129,8 +129,11 @@ export default function Wishlist() {
 
   return (
     <div>
-      <SearchBar onSearch={term => onSearchUser(term)} />
-      <ul className="flex flex-col space-y-2">
+      <h1 className="text-white text-4xl font-medium tracking-wider mb-4">
+        Wishlist
+      </h1>
+      <SearchBar value={user} onSearch={term => onSearchUser(term)} />
+      <ul className="flex flex-col space-y-2 mt-4">
         {!pending ? (
           renderedWishlistItems
         ) : (
