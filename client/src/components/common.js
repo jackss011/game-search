@@ -57,7 +57,7 @@ export const Tagged = ({ tag, children, className }) => {
   )
 }
 
-export const SeatchBar = ({ onSearch }) => {
+export const SearchBar = ({ onSearch }) => {
   const [term, setTerm] = useState()
 
   const onSubmit = event => {
